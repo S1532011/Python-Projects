@@ -1,0 +1,85 @@
+{
+    "mapName": "startMenu.json",
+    "mapType": "text",
+    "map": [
+        ["wall1","ghost1","wall1","Are you sure you want to delete your save?:"],
+        ["wall1","light2","wall1","Yes"],
+        ["wall1","light2","wall1","No"],
+        ["wall1","ghost1","wall1"]
+    ],
+    "triggers": [
+        {
+            "type": "text",
+            "X": 1,
+            "Y": 1,
+            "text": "Yes, Delete my save!",
+            "conditions": [
+            ]
+        },
+        {
+            "type": "text",
+            "X": 1,
+            "Y": 2,
+            "text": "NO PLEASE DON'T!!!",
+            "conditions": [
+            ]
+        },
+        {
+            "type": "function",
+            "X": 1,
+            "Y": 1,
+            "function": "deleteSave",
+            "conditions": [
+                {
+                    "conditionType": "key.Use1"
+                }
+            ]
+        },
+        {
+            "type": "teleport",
+            "X": 1,
+            "Y": 1,
+            "X2": 1,
+            "Y2": 2,
+            "map": "settings.json",
+            "conditions": [
+                {
+                    "conditionType": "key.Use1"
+                }
+            ]
+        },
+        {
+            "type": "teleport",
+            "X": 1,
+            "Y": 0,
+            "X2": 1,
+            "Y2": 2,
+            "map": "deleteSave.json",
+            "conditions": [
+            ]
+        },
+        {
+            "type": "teleport",
+            "X": 1,
+            "Y": 3,
+            "X2": 1,
+            "Y2": 1,
+            "map": "deleteSave.json",
+            "conditions": [
+            ]
+        },
+        {
+            "type": "teleport",
+            "X": 1,
+            "Y": 2,
+            "X2": 1,
+            "Y2": 2,
+            "map": "settings.json",
+            "conditions": [
+                {
+                    "conditionType": "key.Use1"
+                }
+            ]
+        }
+    ]
+}

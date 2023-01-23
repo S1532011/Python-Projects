@@ -1,0 +1,41 @@
+{
+    "mapName": "startMenu.json",
+    "mapType": "text",
+    "map": [
+        ["wall1","wall1","wall1","wall1","wall1","wall1","wall1","wall1","wall1","wall1","wall1","wall1"],
+        ["wall1","light1","light1","light1","light1","light1","light1","light1","light1","light1","light1","wall1"],
+        ["wall1","light1","light1","light1","light1","light1","light1","light1","light1","light1","light1","wall1"],
+        ["wall1","light1","light1","light1","light1","light1","light1","light1","light1","light1","light1","wall1"],
+        ["wall1","wall1","wall1","wall1","light1","light2","light2","light1","wall1","wall1","wall1","wall1"],
+        [" "," "," ","wall1","light1","light2","light2","light1","wall1"," "," "," "],
+        [" "," "," ","wall1","light1","light2","light2","light1","wall1"," "," "," "],
+        [" "," "," ","wall1","light1","light2","light2","light1","wall1"," "," "," "],
+        [" "," "," ","wall1","wall1","wall1","wall1","wall1","wall1"," "," "," "]
+    ],
+    "triggers": [
+        {
+            "type": "text",
+            "X": 1,
+            "Y": 1,
+            "text": "Start Game",
+            "conditions": [
+            ]
+        },
+        {
+            "type": "text",
+            "X": 1,
+            "Y": 2,
+            "text": "Level Editor",
+            "conditions": [
+            ]
+        },
+        {
+            "type": "text",
+            "X": 1,
+            "Y": 3,
+            "text": "Settings",
+            "conditions": [
+            ]
+        }
+    ]
+}

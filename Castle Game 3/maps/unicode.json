@@ -1,0 +1,36 @@
+{
+    "mapName": "startMenu.json",
+    "mapType": "unicode",
+    "map": [
+        ["╔","═","═","═","╗"],
+        ["║","▒","▒","▒","║"],
+        ["║","▒","▒","▒","║"],
+        ["╚","═","═","═","╝"]
+    ],
+    "triggers": [
+        {
+            "type": "text",
+            "X": 1,
+            "Y": 1,
+            "text": "Start Game",
+            "conditions": [
+            ]
+        },
+        {
+            "type": "text",
+            "X": 1,
+            "Y": 2,
+            "text": "Level Editor",
+            "conditions": [
+            ]
+        },
+        {
+            "type": "text",
+            "X": 1,
+            "Y": 3,
+            "text": "Settings",
+            "conditions": [
+            ]
+        }
+    ]
+}

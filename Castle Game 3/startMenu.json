@@ -1,0 +1,120 @@
+{
+    "mapName": "startMenu.json",
+    "mapType": "text",
+    "map": [
+        ["wall1","ghost1","wall1"],
+        ["wall1","light2","wall1","Start/Continue Game"],
+        ["wall1","light2","wall1","Level Editor(WIP)"],
+        ["wall1","light2","wall1","Settings"],
+        ["wall1","light2","wall1","Quit Game"],
+        ["wall1","ghost1","wall1"]
+    ],
+    "triggers": [
+        {
+            "type": "text",
+            "X": 1,
+            "Y": 1,
+            "text": "Start Game",
+            "conditions": [
+            ]
+        },
+        {
+            "type": "text",
+            "X": 1,
+            "Y": 2,
+            "text": "Level Editor (Currently Unavailable)",
+            "conditions": [
+            ]
+        },
+        {
+            "type": "text",
+            "X": 1,
+            "Y": 3,
+            "text": "Settings",
+            "conditions": [
+            ]
+        },
+        {
+            "type": "text",
+            "X": 1,
+            "Y": 4,
+            "text": "Exit the Game/Quit the Program",
+            "conditions": [
+            ]
+        },
+        {
+            "type": "function",
+            "X": 1,
+            "Y": 1,
+            "function": "startGame",
+            "conditions": [
+                {
+                    "conditionType": "key.Use1"
+                },
+                {
+                    "conditionType": "item",
+                    "itemID": "7d4b",
+                    "consumable": false
+                }
+
+            ]
+        },
+        {
+            "type": "function",
+            "X": 1,
+            "Y": 4,
+            "function": "quitGame",
+            "conditions": [
+                {
+                    "conditionType": "key.Use1"
+                }
+            ]
+        },
+        {
+            "type": "teleport",
+            "X": 1,
+            "Y": 0,
+            "X2": 1,
+            "Y2": 4,
+            "map": "startMenu.json",
+            "conditions": [
+            ]
+        },
+        {
+            "type": "teleport",
+            "X": 1,
+            "Y": 5,
+            "X2": 1,
+            "Y2": 1,
+            "map": "startMenu.json",
+            "conditions": [
+            ]
+        },
+        {
+            "type": "teleport",
+            "X": 1,
+            "Y": 2,
+            "X2": 1,
+            "Y2": 2,
+            "map": "",
+            "conditions": [
+                {
+                    "conditionType": "key.Use1"
+                }
+            ]
+        },
+        {
+            "type": "teleport",
+            "X": 1,
+            "Y": 3,
+            "X2": 1,
+            "Y2": 1,
+            "map": "settings.json",
+            "conditions": [
+                {
+                    "conditionType": "key.Use1"
+                }
+            ]
+        }
+    ]
+}

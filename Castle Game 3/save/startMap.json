@@ -1,0 +1,37 @@
+{
+    "mapName": "startMap.json",
+    "mapType": "text",
+    "map": [
+        ["wall1","wall1","wall1","wall1","wall1","wall1","wall1","wall1","wall1","wall1","wall1","wall1","wall1"],
+        ["wall1","light1","light1","light1","light1","light1","light1","light1","light1","light1","light1","light1","wall1"],
+        ["light2","light1","kaizo1","kaizo2","kaizo3","kaizo4","ghost1","light1","light1","light1","light1","light1","wall1"],
+        ["wall1","light1","light1","light1","light1","light1","light1","light1","light1","light1","light1","light1","wall1"],
+        ["wall1","wall1","wall1","wall1","light1","light2","light2","light2","light1","wall1","wall1","wall1","wall1"],
+        [" "," "," ","wall1","light1","light2","light2","light2","light1","wall1"," "," "," "],
+        [" "," "," ","wall1","light1","light2","light2","light2","light1","wall1"," "," "," "],
+        [" "," "," ","wall1","light1","light2","light2","light2","light1","wall1"," "," "," "],
+        [" "," "," ","wall1","wall1","wall1","light2","wall1","wall1","wall1"," "," "," "]
+    ],
+    "triggers": [
+        {
+            "type": "teleport",
+            "X": 0,
+            "Y": 2,
+            "X2": 1,
+            "Y2": 1,
+            "map": "startMenu.json",
+            "conditions": [
+            ]
+        },
+        {
+            "type": "teleport",
+            "X": 6,
+            "Y": 8,
+            "X2": 6,
+            "Y2": 1,
+            "map": "save/map2.json",
+            "conditions": [
+            ]
+        }
+    ]
+}

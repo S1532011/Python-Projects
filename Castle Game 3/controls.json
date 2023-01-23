@@ -1,0 +1,242 @@
+{
+    "mapName": "startMenu.json",
+    "mapType": "text",
+    "map": [
+        ["wall1","ghost1","wall1"],
+        ["wall1","light2","wall1","Up"],
+        ["wall1","light2","wall1","Down"],
+        ["wall1","light2","wall1","Left"],
+        ["wall1","light2","wall1","Right"],
+        ["wall1","light2","wall1","Menu"],
+        ["wall1","light2","wall1","Use1"],
+        ["wall1","light2","wall1","Use2"],
+        ["wall1","light2","wall1","Use3"],
+        ["wall1","light2","wall1","Use4"],
+        ["wall1","light2","wall1","Back"],
+        ["wall1","ghost1","wall1"]
+    ],
+    "triggers": [
+        {
+            "type": "text",
+            "X": 1,
+            "Y": 1,
+            "text": "Change Move Up Button {key.Up}",
+            "conditions": [
+            ]
+        },
+        {
+            "type": "text",
+            "X": 1,
+            "Y": 2,
+            "text": "Change Move Down Button {key.Down}",
+            "conditions": [
+            ]
+        },
+        {
+            "type": "text",
+            "X": 1,
+            "Y": 3,
+            "text": "Change Move Left Button {key.Left}",
+            "conditions": [
+            ]
+        },
+        {
+            "type": "text",
+            "X": 1,
+            "Y": 4,
+            "text": "Change Move Right Button {key.Right}",
+            "conditions": [
+            ]
+        },
+        {
+            "type": "text",
+            "X": 1,
+            "Y": 5,
+            "text": "Change Menu Button {key.Menu}",
+            "conditions": [
+            ]
+        },
+        {
+            "type": "text",
+            "X": 1,
+            "Y": 6,
+            "text": "Change Use1 Button {key.Use1}",
+            "conditions": [
+            ]
+        },
+        {
+            "type": "text",
+            "X": 1,
+            "Y": 7,
+            "text": "Change Use2 Button {key.Use2}",
+            "conditions": [
+            ]
+        },
+        {
+            "type": "text",
+            "X": 1,
+            "Y": 8,
+            "text": "Change Use3 Button {key.Use3}",
+            "conditions": [
+            ]
+        },
+        {
+            "type": "text",
+            "X": 1,
+            "Y": 9,
+            "text": "Change Use4 Button {key.Use4}",
+            "conditions": [
+            ]
+        },
+        {
+            "type": "text",
+            "X": 1,
+            "Y": 10,
+            "text": "Return to Settings Menu",
+            "conditions": [
+            ]
+        },
+        {
+            "type": "function",
+            "X": 1,
+            "Y": 1,
+            "function": "setKey",
+            "key": "key.Up",
+            "conditions": [
+                {
+                    "conditionType": "key.Use1"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "X": 1,
+            "Y": 2,
+            "function": "setKey",
+            "key": "key.Down",
+            "conditions": [
+                {
+                    "conditionType": "key.Use1"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "X": 1,
+            "Y": 3,
+            "function": "setKey",
+            "key": "key.Left",
+            "conditions": [
+                {
+                    "conditionType": "key.Use1"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "X": 1,
+            "Y": 4,
+            "function": "setKey",
+            "key": "key.Right",
+            "conditions": [
+                {
+                    "conditionType": "key.Use1"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "X": 1,
+            "Y": 5,
+            "function": "setKey",
+            "key": "key.Menu",
+            "conditions": [
+                {
+                    "conditionType": "key.Use1"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "X": 1,
+            "Y": 6,
+            "function": "setKey",
+            "key": "key.Use1",
+            "conditions": [
+                {
+                    "conditionType": "key.Use1"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "X": 1,
+            "Y": 7,
+            "function": "setKey",
+            "key": "key.Use2",
+            "conditions": [
+                {
+                    "conditionType": "key.Use1"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "X": 1,
+            "Y": 8,
+            "function": "setKey",
+            "key": "key.Use3",
+            "conditions": [
+                {
+                    "conditionType": "key.Use1"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "X": 1,
+            "Y": 9,
+            "function": "setKey",
+            "key": "key.Use4",
+            "conditions": [
+                {
+                    "conditionType": "key.Use1"
+                }
+            ]
+        },
+        {
+            "type": "teleport",
+            "X": 1,
+            "Y": 0,
+            "X2": 1,
+            "Y2": 10,
+            "map": "controls.json",
+            "conditions": [
+            ]
+        },
+        {
+            "type": "teleport",
+            "X": 1,
+            "Y": 11,
+            "X2": 1,
+            "Y2": 1,
+            "map": "controls.json",
+            "conditions": [
+            ]
+        },
+        {
+            "type": "teleport",
+            "X": 1,
+            "Y": 10,
+            "X2": 1,
+            "Y2": 2,
+            "map": "settings.json",
+            "conditions": [
+                {
+                    "conditionType": "key.Use1"
+                }
+            ]
+        }
+
+    ]
+}

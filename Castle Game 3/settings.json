@@ -1,0 +1,105 @@
+{
+    "mapName": "startMenu.json",
+    "mapType": "text",
+    "map": [
+        ["wall1","ghost1","wall1"],
+        ["wall1","light2","wall1","Player Icon(WIP)"],
+        ["wall1","light2","wall1","Controls"],
+        ["wall1","light2","wall1","Delete Save"],
+        ["wall1","light2","wall1","Back"],
+        ["wall1","ghost1","wall1"]
+    ],
+    "triggers": [
+        {
+            "type": "text",
+            "X": 1,
+            "Y": 1,
+            "text": "Change Player Icon(WIP)",
+            "conditions": [
+            ]
+        },
+        {
+            "type": "text",
+            "X": 1,
+            "Y": 2,
+            "text": "Edit Keybinds",
+            "conditions": [
+            ]
+        },
+        {
+            "type": "text",
+            "X": 1,
+            "Y": 3,
+            "text": "Delete Saved Data",
+            "conditions": [
+            ]
+        },
+        {
+            "type": "text",
+            "X": 1,
+            "Y": 4,
+            "text": "Back",
+            "conditions": [
+            ]
+        },
+        {
+            "type": "teleport",
+            "X": 1,
+            "Y": 0,
+            "X2": 1,
+            "Y2": 4,
+            "map": "settings.json",
+            "conditions": [
+            ]
+        },
+        {
+            "type": "teleport",
+            "X": 1,
+            "Y": 5,
+            "X2": 1,
+            "Y2": 1,
+            "map": "settings.json",
+            "conditions": [
+            ]
+        },
+        {
+            "type": "teleport",
+            "X": 1,
+            "Y": 2,
+            "X2": 1,
+            "Y2": 1,
+            "map": "controls.json",
+            "conditions": [
+                {
+                    "conditionType": "key.Use1"
+                }
+            ]
+        },
+        {
+            "type": "teleport",
+            "X": 1,
+            "Y": 3,
+            "X2": 1,
+            "Y2": 2,
+            "map": "deleteSave.json",
+            "conditions": [
+                {
+                    "conditionType": "key.Use1"
+                }
+            ]
+        },
+        {
+            "type": "teleport",
+            "X": 1,
+            "Y": 4,
+            "X2": 1,
+            "Y2": 1,
+            "map": "startMenu.json",
+            "conditions": [
+                {
+                    "conditionType": "key.Use1"
+                }
+            ]
+        }
+    ]
+}
