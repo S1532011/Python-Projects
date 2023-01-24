@@ -1,0 +1,24 @@
+{
+    "abilityScoreIncrease": [
+        {
+            "skill": "strength",
+            "amount": 2
+        },
+        {
+            "skill": "charisma",
+            "amount": 1
+        }
+    ],
+    "speed": 30,
+    "size": "medium",
+    "languages": [
+        "Common",
+        "Draconic"
+    ],
+    "abilities": [
+        "breath_weapon"
+    ],
+    "subraces": [
+        
+    ]
+}

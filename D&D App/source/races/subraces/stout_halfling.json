@@ -1,0 +1,11 @@
+{
+    "abilityScoreIncrease": [
+        {
+            "skill": "constitution",
+            "amount": 1
+        }
+    ],
+    "abilities": [
+        "stout_resiliance"
+    ]
+}

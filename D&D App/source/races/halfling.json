@@ -1,0 +1,23 @@
+{
+    "abilityScoreIncrease": [
+        {
+            "skill": "dexterity",
+            "amount": 2
+        }
+    ],
+    "speed": 25,
+    "size": "small",
+    "languages": [
+        "Common",
+        "Halfling"
+    ],
+    "abilities": [
+        "lucky",
+        "brave",
+        "halfling_nimbleness"
+    ],
+    "subraces": [
+        "lightfoot_halfling",
+        "stout_halfling"
+    ]
+}

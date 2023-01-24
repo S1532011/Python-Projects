@@ -1,0 +1,11 @@
+{
+    "abilityScoreIncrease": [
+        {
+            "skill": "charisma",
+            "amount": 1
+        }
+    ],
+    "abilities": [
+        "naturally_stealthy"
+    ]
+}

@@ -1,0 +1,15 @@
+[
+    {
+        "book": "Player's Handbook",
+        "races": [
+            "dragonborn",
+            "halfling"
+        ]
+    },
+    {
+        "book": "Mordenkainen Presents: Monsters of the Multiverse",
+        "races": [
+            "eladrin"
+        ]
+    }
+]
