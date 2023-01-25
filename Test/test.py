@@ -2,7 +2,7 @@ from tkinter import *
 from tkinter import scrolledtext
 from tkinter import messagebox
 from tkinter.ttk import Progressbar
-from tkinter.ttk import Combobox, Checkbutton
+from tkinter.ttk import Combobox
 
 def btn1Clicked():
     lbl1.configure(text = "Button Clicked!")
