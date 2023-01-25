@@ -50,11 +50,6 @@
             "conditions": [
                 {
                     "conditionType": "key.Use1"
-                },
-                {
-                    "conditionType": "item",
-                    "itemID": "7d4b",
-                    "consumable": false
                 }
 
             ]

@@ -28,7 +28,7 @@ class Map:
         file = open(Player.getCurrentMap(), "W")
 
     def printMap():
-        mapFile = getMapData()
+        mapFile = Map.getMapData()
 
         if mapFile["mapType"] == "simple":
             Map.printMapSimple(mapFile)

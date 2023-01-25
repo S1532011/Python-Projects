@@ -1,11 +1,9 @@
-from Map import getMapData
 from Player import *
 from Functions import *
 from Keybinds import *
 
 class MapTriggers:
-    def testTriggers(type):
-        map = getMapData()
+    def testTriggers(type, map):
         returnCode = ""
 
         triggers = map["triggers"]

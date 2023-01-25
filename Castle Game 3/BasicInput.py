@@ -7,7 +7,7 @@ from Keybinds import *
 
 def getInput():
     keyInput = str(msvcrt.getwch()).upper()
-    mapFile = getMapData()
+    mapFile = Map.getMapData()
     map = mapFile["map"]
 
     if (keyInput == Keybinds.getKey("key.Up")):

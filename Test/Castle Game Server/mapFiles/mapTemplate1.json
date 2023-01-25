@@ -1,0 +1,8 @@
+{
+    "map": [
+        ["wall1", "wall1", "wall1", "wall1"],
+        ["wall1", "light1", "light1", "wall1"],
+        ["wall1", "light1", "light1", "wall1"],
+        ["wall1", "wall1", "wall1", "wall1"]
+    ]
+}

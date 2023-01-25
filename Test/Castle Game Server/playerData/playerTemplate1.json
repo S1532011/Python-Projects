@@ -1,0 +1,21 @@
+{
+    "player_id": "",
+    "ip_address": "",
+    "date_joined": "",
+    "name": "",
+    "health": 0,
+    "max_health": 20,
+    "money": 0,
+    "x": 0,
+    "y": 0,
+    "map": "",
+    "inventory": [
+
+    ],
+    "name_history": [
+
+    ],
+    "achievements": [
+
+    ]
+}
