@@ -9,9 +9,9 @@ startGame()
 
 while True:
     os.system("cls")
-    if(testTriggers("teleport") == "quit"):
+    if(MapTriggers.testTriggers("teleport") == "quit"):
         break
-    print(str(getPlayerX()) + " " + str(getPlayerY()))
-    printMap()
-    testTriggers("text")
+    print(str(Player.getPlayerX()) + " " + str(Player.getPlayerY()))
+    Map.printMap()
+    MapTriggers.testTriggers("text")
     getInput()

@@ -10,25 +10,25 @@ def getInput():
     mapFile = getMapData()
     map = mapFile["map"]
 
-    if (keyInput == getKey("key.Up")):
-        if(wallExistsPlayer(getPlayerY() - 1, getPlayerX(), map) == False or getEditorMode()):
-            setPlayerY(getPlayerY() - 1)
-    elif (keyInput == getKey("key.Down")):
-        if(wallExistsPlayer(getPlayerY() + 1, getPlayerX(), map) == False or getEditorMode()):
-            setPlayerY(getPlayerY() + 1)
-    elif (keyInput == getKey("key.Left")):
-        if(wallExistsPlayer(getPlayerY(), getPlayerX() - 1, map) == False or getEditorMode()):
-            setPlayerX(getPlayerX() - 1)
-    elif (keyInput == getKey("key.Right")):
-        if(wallExistsPlayer(getPlayerY(), getPlayerX() + 1, map) == False or getEditorMode()):
-            setPlayerX(getPlayerX() + 1)
-    elif (keyInput == getKey("key.Use1")):
-        setUseState(True, "key.Use1")
-    elif (keyInput == getKey("key.Use2")):
-        setUseState(True, "key.Use2")
-    elif (keyInput == getKey("key.Use3")):
-        setUseState(True, "key.Use3")
-    elif (keyInput == getKey("key.Use4")):
-        setUseState(True, "key.Use4")
-    elif (keyInput == getKey("key.Menu")):
-        toggleMenu()
+    if (keyInput == Keybinds.getKey("key.Up")):
+        if(Map.wallExistsPlayer(Player.getPlayerY() - 1, Player.getPlayerX(), map) == False or Player.getEditorMode()):
+            Player.setPlayerY(Player.getPlayerY() - 1)
+    elif (keyInput == Keybinds.getKey("key.Down")):
+        if(Map.wallExistsPlayer(Player.getPlayerY() + 1, Player.getPlayerX(), map) == False or Player.getEditorMode()):
+            Player.setPlayerY(Player.getPlayerY() + 1)
+    elif (keyInput == Keybinds.getKey("key.Left")):
+        if(Map.wallExistsPlayer(Player.getPlayerY(), Player.getPlayerX() - 1, map) == False or Player.getEditorMode()):
+            Player.setPlayerX(Player.getPlayerX() - 1)
+    elif (keyInput == Keybinds.getKey("key.Right")):
+        if(Map.wallExistsPlayer(Player.getPlayerY(), Player.getPlayerX() + 1, map) == False or Player.getEditorMode()):
+            Player.setPlayerX(Player.getPlayerX() + 1)
+    elif (keyInput == Keybinds.getKey("key.Use1")):
+        Player.setUseState(True, "key.Use1")
+    elif (keyInput == Keybinds.getKey("key.Use2")):
+        Player.setUseState(True, "key.Use2")
+    elif (keyInput == Keybinds.getKey("key.Use3")):
+        Player.setUseState(True, "key.Use3")
+    elif (keyInput == Keybinds.getKey("key.Use4")):
+        Player.setUseState(True, "key.Use4")
+    elif (keyInput == Keybinds.getKey("key.Menu")):
+        Keybinds.toggleMenu()

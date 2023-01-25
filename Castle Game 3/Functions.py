@@ -5,43 +5,39 @@ from Player import *
 from Keybinds import *
 
 def startGame():
-    setPlayerPos(1,1)
+    Player.setPlayerPos(1,1)
 
-    setUseState(False, "key.Use1")
-    setUseState(False, "key.Use2")
-    setUseState(False, "key.Use3")
-    setUseState(False, "key.Use4")
-    setUseState(True, "key.Menu")
+    Player.setUseState(False, "key.Use1")
+    Player.setUseState(False, "key.Use2")
+    Player.setUseState(False, "key.Use3")
+    Player.setUseState(False, "key.Use4")
+    Player.setUseState(True, "key.Menu")
 
-    setCurrentMap("startMenu.json")
+    Player.setCurrentMap("startMenu.json")
 
     checkSavedMap()
 
 def checkSavedMap():
-    if(getSavedMap() == ""):
-        setSavedMap("save/startMap.json")
-        setSavedPos(1,2)
+    if(Player.getSavedMap() == ""):
+        Player.setSavedMap("save/startMap.json")
+        Player.setSavedPos(1,2)
 
 def runFunction(trigger):
     if(trigger["function"] == "deleteSave"):
-        os.system("del /Q save\\*")
-        setSavedMap("save/startMap.json")
-        setSavedPos(1,2)
+        deleteSave()
     if(trigger["function"] == "levelEditor"):
-        os.system("copy maps/template.json save")
+        levelEditor()
     if(trigger["function"] == "quitGame"):
         return "quit"
     if(trigger["function"] == "startGame"):
-        toggleMenu()
+        Keybinds.toggleMenu()
     if(trigger["function"] == "giveItem"):
-        item = getItem(trigger["item"])
-        addItem(item)
+        giveItem(trigger)
     if(trigger["function"] == "removeItem"):
-        item = getItem(trigger["item"])
-        removeItem(item)
+        removeItem(trigger)
     if(trigger["function"] == "setKey"):
         print("Press a Key to Change Keybind:")
-        setKey(trigger["key"], str(msvcrt.getwch()).upper())
+        Keybinds.setKey(trigger["key"], str(msvcrt.getwch()).upper())
 #if(trigger["function"] == ""):
 
 def getItem(itemFile):
@@ -49,3 +45,19 @@ def getItem(itemFile):
     item = json.loads(file.read())
     file.close()
     return item
+
+def deleteSave():
+    os.system("del /Q save\\*")
+    Player.setSavedMap("save/startMap.json")
+    Player.setSavedPos(1,2)
+
+def levelEditor():
+    os.system("copy maps/template.json save")
+
+def giveItem(trigger):
+    item = getItem(trigger["item"])
+    Player.giveItem(item)
+
+def removeItem(trigger):
+    item = getItem(trigger["item"])
+    Player.removeItem(item)
