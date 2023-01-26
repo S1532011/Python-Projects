@@ -15,12 +15,16 @@
 
 import socketserver
 
+IP = "127.0.0.1"
+#IP = "192.168.1.36"
+PORT = 65432
+
 class MyTCPRequestHandler(socketserver.StreamRequestHandler):
     def handle(self):
         print("Recieved one request from {}".format(self.client_address[0]))
         msg = self.rfile.readline().strip()
-        print("Data Recieved from client is:".format(msg))
+        print("Data Recieved from client is:".format(msg), end = "")
         print(msg)  
         self.wfile.write("Hello Client....Got your message".encode())
-aServer = socketserver.TCPServer(("127.0.0.1", 65432), MyTCPRequestHandler)
+aServer = socketserver.TCPServer((IP, PORT), MyTCPRequestHandler)
 aServer.serve_forever()
