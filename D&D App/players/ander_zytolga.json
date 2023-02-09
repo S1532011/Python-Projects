@@ -1,0 +1,176 @@
+{
+    "characterName": "Ander Zytolga",
+    "class": "rogue",
+    "subClass": "",
+    "level": 1,
+    "background": "smuggler",
+    "playerName": "Fox",
+    "race": "halfling",
+    "subRace": "lightfoot_halfling",
+    "alignment": {
+        "morals": "neutral",
+        "ethics": "good"
+    },
+    "experiencePoints": 0,
+    "inspiration": false,
+    "stats": {
+        "strength": 12,
+        "dexterity": 19,
+        "constitution": 14,
+        "intelligence": 16,
+        "wisdom": 14,
+        "charisma": 15
+    },
+    "skills": {
+        "acrobatics": 0,
+        "animalHandling": 0,
+        "arcana": 0,
+        "athletics": 1,
+        "deception": 1,
+        "history": 0,
+        "insight": 0,
+        "intimidation": 0,
+        "investigation": 1,
+        "medicine": 0,
+        "nature": 0,
+        "perception": 2,
+        "performance": 0,
+        "persuasion": 0,
+        "religion": 0,
+        "sleightOfHand": 1,
+        "stealth": 2,
+        "survival": 0
+    },
+    "currentHitPoints": 10,
+    "hitPointMaximum": 10,
+    "hitDice": 1,
+    "deathSaves": {
+        "successes": 0,
+        "fails": 0
+    },
+    "personalityTraits": [
+        "Friendly"
+    ],
+    "ideals": [
+        "Wants to be the one to help everyone"
+    ],
+    "bonds": [
+        "Pretty things"
+    ],
+    "flaws": [
+        "Unable to handle failure to help others"
+    ],
+    "languages": [
+        "common",
+        "thieves_cant",
+        "halfling"
+    ],
+    "proficiencies": [
+        "water_vehicles",
+        "thieves_tools",
+        "light_armor",
+        ""
+    ],
+    "currency": {
+        "copper": 0,
+        "silver": 0,
+        "electrum": 0,
+        "gold": 435,
+        "platinum": 0
+    },
+    "equipment": [
+        {
+            "itemName": "burgalers_pack",
+            "count": 1
+        },
+        {
+            "itemName": "rapier",
+            "count": 1
+        },
+        {
+            "itemName": "leather_armor",
+            "count": 1
+        },
+        {
+            "itemName": "balloon",
+            "count": 5
+        },
+        {
+            "itemName": "daisy",
+            "count":10
+        },
+        {
+            "itemName": "tulip",
+            "count": 10
+        },
+        {
+            "itemName": "stick",
+            "count": 1
+        }
+    ],
+    "featuresAndTraits": [
+        "thieves_cant",
+        "sneak_atttack",
+        "halfling_luck",
+        "brave",
+        "halfling_nimbleness",
+        "naturally_stealthy",
+        "down_low"
+    ],
+    "age": 0,
+    "height": "",
+    "weight": "",
+    "eyes": "",
+    "skin": "",
+    "hair": "",
+    "characterAppearance": [
+    ],
+    "alliesAndOrganizations": [
+    ],
+    "symbol": [
+    ],
+    "characterBackstory": [
+    ],
+    "treasure": [
+    ],
+    "spells": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ],
+    "slotsExpended": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "conditions": {
+        "blinded": false,
+        "charmed": false,
+        "deafened": false,
+        "frightened": false,
+        "grappled": false,
+        "incapacitated": false,
+        "invisible": false,
+        "paralyzed": false,
+        "petrified": false,
+        "poisoned": false,
+        "prone": false,
+        "restrained": false,
+        "stunned": false,
+        "unconcious": false,
+        "exhaustion": 0
+    }
+}
