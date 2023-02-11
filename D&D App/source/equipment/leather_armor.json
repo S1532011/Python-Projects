@@ -1,0 +1,16 @@
+{
+    "name": "Leather Armor",
+    "description": "",
+    "tags": [
+        "light_armor"
+    ],
+    "modifiers": [
+        {
+            "type": "character:armor_class",
+            "modifiers": [
+                1,
+                "character.get:dexterity_modifier"
+            ]
+        }
+    ]
+}

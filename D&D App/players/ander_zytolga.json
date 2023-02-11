@@ -108,7 +108,7 @@
             "count": 1
         }
     ],
-    "featuresAndTraits": [
+    "features_and_traits": [
         "thieves_cant",
         "sneak_atttack",
         "halfling_luck",
@@ -117,15 +117,15 @@
         "naturally_stealthy",
         "down_low"
     ],
-    "age": 0,
-    "height": "",
-    "weight": "",
-    "eyes": "",
-    "skin": "",
-    "hair": "",
-    "characterAppearance": [
+    "age": 37,
+    "height": "3ft. 6in.",
+    "weight": "48Lbs",
+    "eyes": "aquamarine",
+    "skin": "dark peach",
+    "hair": "dirty brown",
+    "character_appearance": [
     ],
-    "alliesAndOrganizations": [
+    "allies_andOrganizations": [
     ],
     "symbol": [
     ],
