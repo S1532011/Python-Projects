@@ -1,0 +1,46 @@
+{
+    "armor": "armor_scraps",
+    "hit_points": "2d8+4",
+    "speed": 30,
+    "swim_speed": 0,
+    "stats": {
+        "strength": 10,
+        "dexterity": 14,
+        "constitution": 15,
+        "intelligence": 6,
+        "wisdom": 8,
+        "charisma": 5
+    },
+    "vulnerabilities": [
+        "bludgeoning"
+    ],
+    "damage_resistance": [
+    ],
+    "damage_immunities": [
+        "poison"
+    ],
+    "condition_immunities": [
+        "exhastion",
+        "poisoned"
+    ],
+    "senses": [
+        {
+            "sense": "darkvision",
+            "value": "60"
+        },
+        {
+            "sense": "passive_perception",
+            "value": "9"
+        }
+    ],
+    "languages": [
+    ],
+    "challenge_rating": 0.25,
+    "proficiency_bonus": 0,
+    "features": [
+    ],
+    "actions": [
+        "shortsword",
+        "shortbow"
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "armor": "natural_armor 14",
+    "hit_points": "12d10+48",
+    "speed": 30,
+    "swim_speed": 90,
+    "stats": {
+        "strength": 18,
+        "dexterity": 14,
+        "constitution": 18,
+        "intelligence": 5,
+        "wisdom": 10,
+        "charisma": 8
+    },
+    "vulnerabilities": [
+    ],
+    "damage_resistance": [
+        "acid",
+        "bludgeoning",
+        "piercing",
+        "slashing"
+    ],
+    "damage_immunities": [
+        "poison"
+    ],
+    "condition_immunities": [
+        "exhastion",
+        "grappled",
+        "paralyzed",
+        "petrified",
+        "poisoned",
+        "prone",
+        "restrained",
+        "unconscious"
+    ],
+    "senses": [
+        {
+            "sense": "darkvision",
+            "value": "60"
+        },
+        {
+            "sense": "passive_perception",
+            "value": "10"
+        }
+    ],
+    "languages": [
+        "aquan"
+    ],
+    "challenge_rating": 5,
+    "proficiency_bonus": 3,
+    "features": [
+        "water_form",
+        "freeze"
+    ],
+    "actions": [
+        "multiattack 2",
+        "slam",
+        "whelm"
+    ]
+}

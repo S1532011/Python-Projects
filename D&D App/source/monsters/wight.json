@@ -1,0 +1,36 @@
+{
+    "armor": "",
+    "hit_points": "",
+    "speed": 0,
+    "swim_speed": 0,
+    "stats": {
+        "strength": 0,
+        "dexterity": 0,
+        "constitution": 0,
+        "intelligence": 0,
+        "wisdom": 0,
+        "charisma": 0
+    },
+    "vulnerabilities": [
+    ],
+    "damage_resistance": [
+    ],
+    "damage_immunities": [
+    ],
+    "condition_immunities": [
+    ],
+    "senses": [
+        {
+            "sense": "",
+            "value": ""
+        }
+    ],
+    "languages": [
+    ],
+    "challenge_rating": 0,
+    "proficiency_bonus": 0,
+    "features": [
+    ],
+    "actions": [
+    ]
+}
