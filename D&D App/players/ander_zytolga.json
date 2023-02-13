@@ -1,17 +1,17 @@
 {
-    "characterName": "Ander Zytolga",
+    "character_name": "Ander Zytolga",
     "class": "rogue",
-    "subClass": "",
+    "sub_class": "",
     "level": 1,
     "background": "smuggler",
-    "playerName": "Fox",
+    "player_name": "Fox",
     "race": "halfling",
-    "subRace": "lightfoot_halfling",
+    "sub_race": "lightfoot_halfling",
     "alignment": {
         "morals": "neutral",
         "ethics": "good"
     },
-    "experiencePoints": 0,
+    "experience_points": 0,
     "inspiration": false,
     "stats": {
         "strength": 12,
@@ -23,7 +23,7 @@
     },
     "skills": {
         "acrobatics": 0,
-        "animalHandling": 0,
+        "animal_handling": 0,
         "arcana": 0,
         "athletics": 1,
         "deception": 1,
@@ -37,18 +37,18 @@
         "performance": 0,
         "persuasion": 0,
         "religion": 0,
-        "sleightOfHand": 1,
+        "sleight_of_hand": 1,
         "stealth": 2,
         "survival": 0
     },
-    "currentHitPoints": 10,
-    "hitPointMaximum": 10,
-    "hitDice": 1,
-    "deathSaves": {
+    "current_hit_points": 10,
+    "hit_point_maximum": 10,
+    "hit_dice": 1,
+    "death_saves": {
         "successes": 0,
         "fails": 0
     },
-    "personalityTraits": [
+    "personality_traits": [
         "Friendly"
     ],
     "ideals": [
@@ -80,31 +80,31 @@
     },
     "equipment": [
         {
-            "itemName": "burgalers_pack",
+            "item_name": "burgalers_pack",
             "count": 1
         },
         {
-            "itemName": "rapier",
+            "item_name": "rapier",
             "count": 1
         },
         {
-            "itemName": "leather_armor",
+            "item_name": "leather_armor",
             "count": 1
         },
         {
-            "itemName": "balloon",
+            "item_name": "balloon",
             "count": 5
         },
         {
-            "itemName": "daisy",
+            "item_name": "daisy",
             "count":10
         },
         {
-            "itemName": "tulip",
+            "item_name": "tulip",
             "count": 10
         },
         {
-            "itemName": "stick",
+            "item_name": "stick",
             "count": 1
         }
     ],
@@ -125,11 +125,11 @@
     "hair": "dirty brown",
     "character_appearance": [
     ],
-    "allies_andOrganizations": [
+    "allies_and_organizations": [
     ],
     "symbol": [
     ],
-    "characterBackstory": [
+    "character_backstory": [
     ],
     "treasure": [
     ],
@@ -145,7 +145,7 @@
         [],
         []
     ],
-    "slotsExpended": [
+    "slots_expended": [
         0,
         0,
         0,

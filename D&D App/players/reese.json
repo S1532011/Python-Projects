@@ -1,17 +1,17 @@
 {
-    "characteName": "",
-    "class": "",
-    "subClass": "",
-    "level": 0,
+    "character_name": "Reese",
+    "class": "rogue",
+    "sub_class": "thief",
+    "level": 3,
     "background": "",
-    "playerName": "",
-    "race": "",
-    "subRace": "",
+    "player_name": "",
+    "race": "dragonborn",
+    "sub_race": "black_dragonborn",
     "alignment": {
-        "morals": "",
-        "ethics": ""
+        "morals": "chaotic",
+        "ethics": "neutral"
     },
-    "experiencePoints": 0,
+    "experience_points": 0,
     "inspiration": false,
     "stats": {
         "strength": 0,
@@ -23,7 +23,7 @@
     },
     "skills": {
         "acrobatics": 0,
-        "animalHandling": 0,
+        "animal_handling": 0,
         "arcana": 0,
         "athletics": 0,
         "deception": 0,
@@ -37,18 +37,18 @@
         "performance": 0,
         "persuasion": 0,
         "religion": 0,
-        "sleightOfHand": 0,
+        "sleight_of_hand": 0,
         "stealth": 0,
         "survival": 0
     },
-    "currentHitPoints": 0,
-    "hitPointMaximum": 0,
-    "hitDice": 0,
-    "deathSaves": {
+    "current_hit_points": 0,
+    "hit_point_maximum": 0,
+    "hit_dice": 0,
+    "death_saves": {
         "successes": 0,
         "fails": 0
     },
-    "personalityTraits": [
+    "personality_traits": [
     ],
     "ideals": [
     ],
@@ -69,7 +69,7 @@
     },
     "equipment": [
     ],
-    "featuresAndTraits": [
+    "features_and_traits": [
     ],
     "age": 0,
     "height": "",
@@ -77,13 +77,13 @@
     "eyes": "",
     "skin": "",
     "hair": "",
-    "characterAppearance": [
+    "character_appearance": [
     ],
-    "alliesAndOrganizations": [
+    "allies_and_organizations": [
     ],
     "symbol": [
     ],
-    "characterBackstory": [
+    "character_backstory": [
     ],
     "treasure": [
     ],
@@ -99,7 +99,7 @@
         [],
         []
     ],
-    "slotsExpended": [
+    "slots_expended": [
         0,
         0,
         0,
