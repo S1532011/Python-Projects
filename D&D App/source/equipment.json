@@ -1,0 +1,109 @@
+{
+    "equipment": [
+        "leather_armor",
+        "arrow",
+        "shortsword",
+        "shortbow",
+        "dagger",
+        "rapier",
+        "quarterstaff",
+        "holy_symbol",
+        "arcane_focus",
+        "torch",
+        "chainmail_armor",
+        "cobblers_tools",
+        "thieves_tools",
+        "common_clothes",
+        "burgalers_pack",
+        "gems",
+        "bone",
+        "rock",
+        "balloon",
+        "armor_scraps",
+        "flower"
+    ],
+    "leather_armor": {
+        "link": "https://roll20.net/compendium/dnd5e/Armor#content",
+        "weight": 10
+    },
+    "arrow": {
+        "link": "https://roll20.net/compendium/dnd5e/Arrows#content",
+        "weight": 0.05
+    },
+    "shortsword": {
+        "link": "https://roll20.net/compendium/dnd5e/Shortsword#content",
+        "weight": 2
+    },
+    "shortbow": {
+        "link": "https://roll20.net/compendium/dnd5e/Shortbow#content",
+        "weight": 2
+    },
+    "dagger": {
+        "link": "https://roll20.net/compendium/dnd5e/Dagger#content",
+        "weight": 1
+    },
+    "rapier": {
+        "link": "https://roll20.net/compendium/dnd5e/Rapier#content",
+        "weight": 2
+    },
+    "quarterstaff": {
+        "link": "https://roll20.net/compendium/dnd5e/Quarterstaff#content",
+        "weight": 4
+    },
+    "holy_symbol": {
+        "link": "https://roll20.net/compendium/dnd5e/Reliquary#content",
+        "weight": 2
+    },
+    "arcane_focus": {
+        "link": "https://roll20.net/compendium/dnd5e/Crystal#content",
+        "weight": 1
+    },
+    "torch": {
+        "link": "https://roll20.net/compendium/dnd5e/Torch#content",
+        "weight": 1
+    },
+    "chainmail_armor": {
+        "link": "https://roll20.net/compendium/dnd5e/Chain%20Mail#content",
+        "weight": 55
+    },
+    "cobblers_tools": {
+        "link": "https://www.gmbinder.com/share/-LjDQa25EcZ9qy_grcW2",
+        "weight": 5
+    },
+    "thieves_tools": {
+        "link": "https://roll20.net/compendium/dnd5e/Thieves'%20Tools#content",
+        "weight": 1
+    },
+    "common_clothes": {
+        "link": "https://www.dndbeyond.com/equipment/clothes-common",
+        "weight": 3
+    },
+    "burgalers_pack": {
+        "link": "https://roll20.net/compendium/dnd5e/Burglar's%20Pack#content",
+        "weight": 47.5
+    },
+    "gems": {
+        "link": "https://dungeonsdragons.fandom.com/wiki/Gemstone",
+        "weight": 0.05
+    },
+    "bone": {
+        "link": "",
+        "weight": 0.1
+    },
+    "rock": {
+        "link": "",
+        "weight": 1
+    },
+    "balloon": {
+        "link": "",
+        "weight": 0
+    },
+    "armor_scraps": {
+        "link": "",
+        "weight": 10
+    },
+    "flower": {
+        "link": "",
+        "weight": 0.05
+    }
+}

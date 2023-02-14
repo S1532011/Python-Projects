@@ -1,0 +1,120 @@
+{
+    "attacks_and_spells": [
+        "shortsword",
+        "shortbow",
+        "dagger",
+        "rapier",
+        "quarterstaff",
+        "torch",
+        "hunters_mark",
+        "alarm",
+        "fog_cloud",
+        "prestidigitation",
+        "vicious_mockery",
+        "cure_wounds",
+        "charm_person",
+        "faerie_fire",
+        "thunderwave",
+        "enhance_ability",
+        "heat_metal",
+        "chill_touch",
+        "true_strike",
+        "minor_illusion",
+        "comprehend_languages",
+        "detect_magic",
+        "feather_fall",
+        "magic_missile",
+        "shield",
+        "flaming_sphere",
+        "invisibility",
+        "see_invisibility",
+        "shatter"
+    ],
+    "shortsword": {
+        "link": "https://roll20.net/compendium/dnd5e/Shortsword#content"
+    },
+    "shortbow": {
+        "link": "https://roll20.net/compendium/dnd5e/Shortbow#content"
+    },
+    "dagger": {
+        "link": "https://roll20.net/compendium/dnd5e/Dagger#content"
+    },
+    "rapier": {
+        "link": "https://roll20.net/compendium/dnd5e/Rapier#content"
+    },
+    "quarterstaff": {
+        "link": "https://roll20.net/compendium/dnd5e/Quarterstaff#content"
+    },
+    "torch": {
+        "link": "https://roll20.net/compendium/dnd5e/Torch#content"
+    },
+    "hunters_mark": {
+        "link": "https://roll20.net/compendium/dnd5e/Hunter's%20Mark#content"
+    },
+    "alarm": {
+        "link": "https://roll20.net/compendium/dnd5e/Alarm#content"
+    },
+    "fog_cloud": {
+        "link": "https://roll20.net/compendium/dnd5e/Fog%20Cloud#content"
+    },
+    "prestidigitation": {
+        "link": "https://roll20.net/compendium/dnd5e/Prestidigitation#content"
+    },
+    "vicious_mockery": {
+        "link": "https://roll20.net/compendium/dnd5e/Vicious%20Mockery#content"
+    },
+    "cure_wounds": {
+        "link": "https://roll20.net/compendium/dnd5e/Cure%20Wounds#content"
+    },
+    "charm_person": {
+        "link": "https://roll20.net/compendium/dnd5e/Charm%20Person#content"
+    },
+    "faerie_fire": {
+        "link": "https://roll20.net/compendium/dnd5e/Faerie%20Fire#content"
+    },
+    "thunderwave": {
+        "link": "https://roll20.net/compendium/dnd5e/Thunderwave#content"
+    },
+    "enhance_ability": {
+        "link": "https://roll20.net/compendium/dnd5e/Enhance%20Ability#content"
+    },
+    "heat_metal": {
+        "link": "https://roll20.net/compendium/dnd5e/Heat%20Metal#content"
+    },
+    "chill_touch": {
+        "link": "https://roll20.net/compendium/dnd5e/Chill%20Touch#content"
+    },
+    "true_strike": {
+        "link": "https://roll20.net/compendium/dnd5e/True%20Strike#content"
+    },
+    "minor_illusion": {
+        "link": "https://roll20.net/compendium/dnd5e/Minor%20Illusion#content"
+    },
+    "comprehend_languages": {
+        "link": "https://roll20.net/compendium/dnd5e/Comprehend%20Languages#content"
+    },
+    "detect_magic": {
+        "link": "https://roll20.net/compendium/dnd5e/Detect%20Magic#content"
+    },
+    "feather_fall": {
+        "link": "https://roll20.net/compendium/dnd5e/Feather%20Fall#content"
+    },
+    "magic_missile": {
+        "link": "https://roll20.net/compendium/dnd5e/Magic%20Missile#content"
+    },
+    "shield": {
+        "link": "https://www.dndbeyond.com/spells/shield"
+    },
+    "flaming_sphere": {
+        "link": "https://roll20.net/compendium/dnd5e/Flaming%20Sphere#content"
+    },
+    "invisibility": {
+        "link": "https://roll20.net/compendium/dnd5e/Invisibility#content"
+    },
+    "see_invisibility": {
+        "link": "https://roll20.net/compendium/dnd5e/See%20Invisibility#content"
+    },
+    "shatter": {
+        "link": "https://roll20.net/compendium/dnd5e/Shatter#content"
+    }
+}
