@@ -7,5 +7,5 @@ class Character:
         file.close()
         return character
     
-    def __init__(self):
-        self.getData()
+    def __init__(self, characterFile):
+        self.getData(characterFile)

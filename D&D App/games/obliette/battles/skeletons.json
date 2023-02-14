@@ -1,0 +1,11 @@
+{
+    "party": "obliette",
+    "monsters": [
+        {
+            "type": "skeleton",
+            "count": 6,
+            "modifiers": [
+            ]
+        }
+    ]
+}

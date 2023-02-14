@@ -1,4 +1,5 @@
 {
+    "name": "Water Elemental",
     "armor": "natural_armor 14",
     "hit_points": "12d10+48",
     "speed": 30,

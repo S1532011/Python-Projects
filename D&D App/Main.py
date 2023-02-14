@@ -1,7 +1,15 @@
 from tkinter import *
 
-window = Tk()
+from Character import *
+from TurnOrder import *
 
-window.geometry("640x360")
+class Main:
+    window = Tk()
+    turnOrder = TurnOrder("game", "battle")
 
-window.mainloop()
+    def __init__(self):
+        self.window.geometry("960x600")
+        self.window.mainloop()
+
+if(__name__ == "__main__"):
+    main = Main()

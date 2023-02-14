@@ -1,0 +1,11 @@
+{
+    "party": "obliette",
+    "monsters": [
+        {
+            "type": "water_elemental",
+            "count": 1,
+            "modifiers": [
+            ]
+        }
+    ]
+}

@@ -1,4 +1,5 @@
 {
+    "name": "Skeleton",
     "armor": "armor_scraps",
     "hit_points": "2d8+4",
     "speed": 30,
