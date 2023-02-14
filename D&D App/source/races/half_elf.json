@@ -1,0 +1,24 @@
+{
+    "link": "https://www.dndbeyond.com/races/20-half-elf",
+    "name": "Half-Elf",
+    "abilityScoreIncrease": [
+        {
+            "skill": "chrisma",
+            "amount": 2
+        }
+    ],
+    "speed": 30,
+    "size": "medium",
+    "languages": [
+        "common",
+        "elvish",
+        "extra"
+    ],
+    "abilities": [
+        "darkvision",
+        "skill_versatility"
+    ],
+    "subraces": [
+        
+    ]
+}

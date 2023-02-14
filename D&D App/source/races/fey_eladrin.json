@@ -1,0 +1,26 @@
+{
+    "link": "https://forgottenrealms.fandom.com/wiki/Fey_eladrin",
+    "name": "Fey Eladrin",
+    "abilityScoreIncrease": [
+        {
+            "skill": "",
+            "amount": 0
+        },
+        {
+            "skill": "",
+            "amount": 0
+        }
+    ],
+    "speed": 0,
+    "size": "",
+    "languages": [
+
+    ],
+    "abilities": [
+
+    ],
+    "subraces": [
+        
+    ]
+    // finish filling out
+}
