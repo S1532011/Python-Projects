@@ -1,9 +1,9 @@
 {
+    "link": "",
     "name": "Skeleton",
-    "armor": "armor_scraps",
+    "ac": 13,
     "hit_points": "2d8+4",
     "speed": 30,
-    "swim_speed": 0,
     "stats": {
         "strength": 10,
         "dexterity": 14,
@@ -24,20 +24,6 @@
         "exhastion",
         "poisoned"
     ],
-    "senses": [
-        {
-            "sense": "darkvision",
-            "value": "60"
-        },
-        {
-            "sense": "passive_perception",
-            "value": "9"
-        }
-    ],
-    "languages": [
-    ],
-    "challenge_rating": 0.25,
-    "proficiency_bonus": 0,
     "features": [
     ],
     "actions": [

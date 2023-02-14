@@ -1,4 +1,6 @@
 {
+    "link": "",
+    "name": "",
     "abilityScoreIncrease": [
         {
             "skill": "strength",
@@ -15,7 +17,7 @@
         "Common",
         "Draconic"
     ],
-    "abilities": [
+    "features_and_traits": [
         "breath_weapon"
     ],
     "subraces": [

@@ -1,4 +1,6 @@
 {
+    "link": "",
+    "name": "",
     "abilityScoreIncrease": [
         {
             "skill": "dexterity",
@@ -11,7 +13,7 @@
         "Common",
         "Halfling"
     ],
-    "abilities": [
+    "features_and_traits": [
         "lucky",
         "brave",
         "halfling_nimbleness"

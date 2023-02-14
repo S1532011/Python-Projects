@@ -1,6 +1,7 @@
 {
+    "link": "",
     "name": "Water Elemental",
-    "armor": "natural_armor 14",
+    "ac": 14,
     "hit_points": "12d10+48",
     "speed": 30,
     "swim_speed": 90,
@@ -33,27 +34,12 @@
         "restrained",
         "unconscious"
     ],
-    "senses": [
-        {
-            "sense": "darkvision",
-            "value": "60"
-        },
-        {
-            "sense": "passive_perception",
-            "value": "10"
-        }
-    ],
-    "languages": [
-        "aquan"
-    ],
-    "challenge_rating": 5,
-    "proficiency_bonus": 3,
     "features": [
         "water_form",
         "freeze"
     ],
     "actions": [
-        "multiattack 2",
+        "multiattack_2",
         "slam",
         "whelm"
     ]

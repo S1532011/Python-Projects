@@ -1,9 +1,9 @@
 {
+    "link": "",
     "name": "",
-    "armor": "",
+    "ac": 0,
     "hit_points": "",
     "speed": 0,
-    "swim_speed": 0,
     "stats": {
         "strength": 0,
         "dexterity": 0,
@@ -20,16 +20,6 @@
     ],
     "condition_immunities": [
     ],
-    "senses": [
-        {
-            "sense": "",
-            "value": ""
-        }
-    ],
-    "languages": [
-    ],
-    "challenge_rating": 0,
-    "proficiency_bonus": 0,
     "features": [
     ],
     "actions": [
