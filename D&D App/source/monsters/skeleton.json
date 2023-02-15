@@ -1,5 +1,5 @@
 {
-    "link": "",
+    "link": "https://www.dndbeyond.com/monsters/17015-skeleton",
     "name": "Skeleton",
     "ac": 13,
     "hit_points": "2d8+4",
@@ -24,7 +24,10 @@
         "exhastion",
         "poisoned"
     ],
+    "languages": [
+    ],
     "features": [
+        "darkvision"
     ],
     "actions": [
         "shortsword",

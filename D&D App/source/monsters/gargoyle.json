@@ -1,21 +1,21 @@
 {
-    "link": "https://www.dndbeyond.com/monsters/17059-wight",
-    "name": "Wight",
-    "ac": 14,
-    "hit_points": "6d8+18",
+    "link": "https://www.dndbeyond.com/monsters/16868-gargoyle",
+    "name": "Gargoyle",
+    "ac": 15,
+    "hit_points": "7d8+21",
     "speed": 30,
+    "fly": 60,
     "stats": {
         "strength": 15,
-        "dexterity": 14,
+        "dexterity": 11,
         "constitution": 16,
-        "intelligence": 10,
-        "wisdom": 13,
-        "charisma": 15
+        "intelligence": 6,
+        "wisdom": 11,
+        "charisma": 7
     },
     "vulnerabilities": [
     ],
-    "damage_resistance": [
-        "necrotic",
+    "damage_resistances": [
         "bludgeoning",
         "piercing",
         "slashing"
@@ -25,18 +25,18 @@
     ],
     "condition_immunities": [
         "exhastion",
+        "petrified",
         "poisoned"
     ],
     "languages": [
+        "terran"
     ],
     "features": [
-        "sunlight_sesitivity",
-        "darkvision"
+        "false_appearance"
     ],
     "actions": [
         "multiattack",
-        "life_drain",
-        "longsword",
-        "longbow"
+        "bite",
+        "claws"
     ]
 }

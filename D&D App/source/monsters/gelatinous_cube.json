@@ -1,16 +1,16 @@
 {
-    "link": "",
-    "name": "",
-    "ac": 0,
-    "hit_points": "",
-    "speed": 0,
+    "link": "https://www.dndbeyond.com/monsters/16869-gelatinous-cube",
+    "name": "Gelatinous Cube",
+    "ac": 6,
+    "hit_points": "8d10+40",
+    "speed": 15,
     "stats": {
-        "strength": 0,
-        "dexterity": 0,
-        "constitution": 0,
-        "intelligence": 0,
-        "wisdom": 0,
-        "charisma": 0
+        "strength": 14,
+        "dexterity": 3,
+        "constitution": 20,
+        "intelligence": 1,
+        "wisdom": 6,
+        "charisma": 1
     },
     "vulnerabilities": [
     ],
@@ -19,9 +19,22 @@
     "damage_immunities": [
     ],
     "condition_immunities": [
+        "blinded",
+        "charmed",
+        "deafened",
+        "exhastion",
+        "frightened",
+        "prone"
+    ],
+    "languages": [
     ],
     "features": [
+        "blindsight",
+        "ooze_cube",
+        "transparent"
     ],
     "actions": [
+        "pseudopod",
+        "engulf"
     ]
 }

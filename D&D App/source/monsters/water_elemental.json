@@ -1,10 +1,10 @@
 {
-    "link": "",
+    "link": "https://www.dndbeyond.com/monsters/17051-water-elemental",
     "name": "Water Elemental",
     "ac": 14,
     "hit_points": "12d10+48",
     "speed": 30,
-    "swim_speed": 90,
+    "swim": 90,
     "stats": {
         "strength": 18,
         "dexterity": 14,
@@ -34,12 +34,16 @@
         "restrained",
         "unconscious"
     ],
+    "languages": [
+        "aquan"
+    ],
     "features": [
         "water_form",
-        "freeze"
+        "freeze",
+        "darkvision"
     ],
     "actions": [
-        "multiattack_2",
+        "multiattack",
         "slam",
         "whelm"
     ]

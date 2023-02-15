@@ -68,8 +68,7 @@
     "proficiencies": [
         "water_vehicles",
         "thieves_tools",
-        "light_armor",
-        ""
+        "light_armor"
     ],
     "currency": {
         "copper": 0,
