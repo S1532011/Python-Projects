@@ -1,15 +1,25 @@
-import json
+import math
+
+from Control import *
 
 class Monster:
-    def getData(self, monster):
-        try:
-            monsterFile = "source/monsters/" + str(monster) + ".json"
-            file = open(monsterFile, "r")
-            monsterData = json.dumps(file.read())
-            file.close()
-            return monsterData
-        except FileNotFoundError():
-            return "{}"
+    monster = {}
+
+    def getSpeed(self):
+        return self.monster["speed"]
     
-    def __init__(self, monster):
-        monsterData = self.getData(monster)
+    def getHealth(self):
+        health = Control.roll(self.monster["hit_points"])
+        return health
+    
+    def getStatModifier(self, statModifierName):
+        statModifier = math.floor((self.monster["stats"][statModifierName] - 10) / 2)
+        return statModifier
+
+    def getData(self, monsterName):
+        monsterFileName = "source/monsters/" + monsterName + ".json"
+        monsterData = Control.getData(monsterFileName)
+        return monsterData
+    
+    def __init__(self, monsterName):
+        self.monster = self.getData(monsterName)
