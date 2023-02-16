@@ -4,6 +4,9 @@ from Control import *
 
 class Monster:
     monster = {}
+    maxHealth = 0
+    health = 0
+    initiative = 0
 
     def getSpeed(self):
         return self.monster["speed"]

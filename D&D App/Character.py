@@ -4,6 +4,9 @@ from Control import *
 
 class Character:
     character = {}
+    maxHealth = 0
+    health = 0
+    initiative = 0
 
     def getSpeed(self):
         raceFileName = "source/races/" + self.character["race"] + ".json"

@@ -41,7 +41,6 @@
         "stealth": 2,
         "survival": 0
     },
-    "current_hit_points": 10,
     "hit_point_maximum": 10,
     "hit_dice": 1,
     "death_saves": {
