@@ -1,6 +1,4 @@
 {
-    "link": "https://www.dndbeyond.com/races/20-half-elf",
-    "name": "Half-Elf",
     "abilityScoreIncrease": [
         {
             "skill": "chrisma",
@@ -19,6 +17,5 @@
         "skill_versatility"
     ],
     "subraces": [
-        
     ]
 }

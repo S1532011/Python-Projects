@@ -1,6 +1,4 @@
 {
-    "link": "https://www.dndbeyond.com/races/16-dragonborn",
-    "name": "Dragonborn",
     "abilityScoreIncrease": [
         {
             "skill": "strength",
@@ -21,6 +19,5 @@
         "breath_weapon"
     ],
     "subraces": [
-        
     ]
 }

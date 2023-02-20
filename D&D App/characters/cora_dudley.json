@@ -5,8 +5,8 @@
     "level": 3,
     "background": "",
     "player_name": "Alexis",
-    "race": "halfling",
-    "sub_race": "lightfoot_halfling",
+    "race": "phb-halfling",
+    "sub_race": "phb-lightfoot_halfling",
     "alignment": {
         "morals": "lawful",
         "ethics": "good"

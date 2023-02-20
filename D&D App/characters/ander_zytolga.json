@@ -5,8 +5,8 @@
     "level": 1,
     "background": "smuggler",
     "player_name": "Fox",
-    "race": "halfling",
-    "sub_race": "lightfoot_halfling",
+    "race": "phb-halfling",
+    "sub_race": "phb-lightfoot_halfling",
     "alignment": {
         "morals": "neutral",
         "ethics": "good"

@@ -1,6 +1,4 @@
 {
-    "link": "https://www.dndbeyond.com/races/14-halfling",
-    "name": "Halfling",
     "abilityScoreIncrease": [
         {
             "skill": "dexterity",
@@ -19,7 +17,7 @@
         "halfling_nimbleness"
     ],
     "subraces": [
-        "lightfoot_halfling",
-        "stout_halfling"
+        "phb-lightfoot_halfling",
+        "phb-stout_halfling"
     ]
 }

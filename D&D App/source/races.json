@@ -1,15 +1,497 @@
-[
-    {
-        "book": "Player's Handbook",
-        "races": [
-            "dragonborn",
-            "halfling"
-        ]
+{
+    "link": "",
+    "races": [
+        "phb-dragonborn",
+        "phb-dwarf",
+        "phb-elf",
+        "phb-gnome",
+        "phb-half_elf",
+        "phb-halfling",
+        "phb-half_orc",
+        "phb-human",
+        "phb-tiefling",
+        "moot-leonin",
+        "moot-satyr",
+        "sacoc-owlin",
+        "motm-aarakocra",
+        "motm-aasimar",
+        "motm-air_genasi",
+        "motm-bugbear",
+        "motm-centaur",
+        "motm-changeling",
+        "motm-deep_gnome",
+        "motm-duergar",
+        "motm-earth_genasi",
+        "motm-eladrin",
+        "motm-fairy",
+        "motm-firbolg",
+        "motm-fire_genasi",
+        "motm-githzerai",
+        "motm-goblin",
+        "motm-goliath",
+        "motm-harengon",
+        "motm-hobgoblin",
+        "motm-kenku",
+        "motm-kobold",
+        "motm-lizardfolk",
+        "motm-minotaur",
+        "motm-orc",
+        "motm-satyr",
+        "motm-sea_elf",
+        "motm-shadar_kai",
+        "motm-shifter",
+        "motm-tabaxi",
+        "motm-tortle",
+        "motm-triton",
+        "motm-water_genasi",
+        "motm-yuan_ti",
+        "vgtm-aasimar",
+        "vgtm-bugbear",
+        "vgtm-firbolg",
+        "vgtm-goblin",
+        "vgtm-hobgoblin",
+        "vgtm-kenku",
+        "vgtm-kobold",
+        "vgtm-lizardfolk",
+        "vgtm-orc",
+        "vgtm-tabaxi",
+        "vgtm-triton",
+        "vgtm-yuan_ti_pureblood",
+        "vrgtr-lineages",
+        "scag-feral_tiefling",
+        "ttp-tortle",
+        "erftlw-changeling",
+        "erftlw-kalashtar",
+        "erftlw-shifter",
+        "erftlw-warforged",
+        "sais-astral_elf",
+        "sais-autognome",
+        "sais-giff",
+        "sais-hadozee",
+        "sais-plasmoid",
+        "sais-thri-kreen",
+        "mtof-gith",
+        "ggtr-centaur",
+        "ggtr-loxodon",
+        "ggtr-minotaur",
+        "ggtr-simic_hybrid",
+        "ggtr-vedalken",
+        "ai-verdan",
+        "lr-locathah",
+        "sotdq-kender",
+        "oga-grung",
+        "eepc-aarakocra",
+        "eepc-genasi",
+        "eepc-goliath"
+    ],
+    "phb-dragonborn": {
+        "link": "https://www.dndbeyond.com/races/16-dragonborn",
+        "name": "Dragonborn",
+        "book": "Player's Handbook"
     },
-    {
-        "book": "Mordenkainen Presents: Monsters of the Multiverse",
-        "races": [
-            "eladrin"
-        ]
+    "phb-dwarf": {
+        "link": "https://www.dndbeyond.com/races/13-dwarf",
+        "name": "Dwarf",
+        "book": "Player's Handbook"
+    },
+    "phb-elf": {
+        "link": "https://www.dndbeyond.com/races/3-elf",
+        "name": "Elf",
+        "book": "Player's Handbook"
+    },
+    "phb-gnome": {
+        "link": "https://www.dndbeyond.com/races/18-gnome",
+        "name": "Gnome",
+        "book": "Player's Handbook"
+    },
+    "phb-half_elf": {
+        "link": "https://www.dndbeyond.com/races/20-half-elf",
+        "name": "Half Elf",
+        "book": "Player's Handbook"
+    },
+    "phb-halfling": {
+        "link": "https://www.dndbeyond.com/races/14-halfling",
+        "name": "Halfling",
+        "book": "Player's Handbook"
+    },
+    "phb-half_orc": {
+        "link": "https://www.dndbeyond.com/races/2-half-orc",
+        "name": "Half Orc",
+        "book": "Player's Handbook"
+    },
+    "phb-human": {
+        "link": "https://www.dndbeyond.com/races/1-human",
+        "name": "Human",
+        "book": "Player's Handbook"
+    },
+    "phb-tiefling": {
+        "link": "https://www.dndbeyond.com/races/7-tiefling",
+        "name": "Tiefling",
+        "book": "Player's Handbook"
+    },
+    "moot-leonin": {
+        "link": "",
+        "name": "Leonin",
+        "book": "Mythic Odysseys of Theros"
+    },
+    "moot-satyr": {
+        "link": "",
+        "name": "Satyr",
+        "book": "Mythic Odysseys of Theros"
+    },
+    "sacoc-owlin": {
+        "link": "",
+        "name": "Owlin",
+        "book": "Strixhaven- A Curriculum of Chaos"
+    },
+    "motm-aarakocra": {
+        "link": "",
+        "name": "Aarakocra",
+        "book": "Mordenkainen Presents: Monsters of the Multiverse"
+    },
+    "motm-aasimar": {
+        "link": "",
+        "name": "Aasimar",
+        "book": "Mordenkainen Presents: Monsters of the Multiverse"
+    },
+    "motm-air_genasi": {
+        "link": "",
+        "name": "Air Genasi",
+        "book": "Mordenkainen Presents: Monsters of the Multiverse"
+    },
+    "motm-bugbear": {
+        "link": "",
+        "name": "Bugbear",
+        "book": "Mordenkainen Presents: Monsters of the Multiverse"
+    },
+    "motm-centaur": {
+        "link": "",
+        "name": "Centaur",
+        "book": "Mordenkainen Presents: Monsters of the Multiverse"
+    },
+    "motm-changeling": {
+        "link": "",
+        "name": "Changeling",
+        "book": "Mordenkainen Presents: Monsters of the Multiverse"
+    },
+    "motm-deep_gnome": {
+        "link": "",
+        "name": "Deep Gnome",
+        "book": "Mordenkainen Presents: Monsters of the Multiverse"
+    },
+    "motm-duergar": {
+        "link": "",
+        "name": "Duergar",
+        "book": "Mordenkainen Presents: Monsters of the Multiverse"
+    },
+    "motm-earth_genasi": {
+        "link": "",
+        "name": "Earth Genasi",
+        "book": "Mordenkainen Presents: Monsters of the Multiverse"
+    },
+    "motm-eladrin": {
+        "link": "",
+        "name": "Eladrin",
+        "book": "Mordenkainen Presents: Monsters of the Multiverse"
+    },
+    "motm-fairy": {
+        "link": "",
+        "name": "Fairy",
+        "book": "Mordenkainen Presents: Monsters of the Multiverse"
+    },
+    "motm-firbolg": {
+        "link": "",
+        "name": "Firbolg",
+        "book": "Mordenkainen Presents: Monsters of the Multiverse"
+    },
+    "motm-fire_genasi": {
+        "link": "",
+        "name": "Fire Genasi",
+        "book": "Mordenkainen Presents: Monsters of the Multiverse"
+    },
+    "motm-githzerai": {
+        "link": "",
+        "name": "Githzerai",
+        "book": "Mordenkainen Presents: Monsters of the Multiverse"
+    },
+    "motm-goblin": {
+        "link": "",
+        "name": "Goblin",
+        "book": "Mordenkainen Presents: Monsters of the Multiverse"
+    },
+    "motm-goliath": {
+        "link": "",
+        "name": "Goliath",
+        "book": "Mordenkainen Presents: Monsters of the Multiverse"
+    },
+    "motm-harengon": {
+        "link": "",
+        "name": "Harengon",
+        "book": "Mordenkainen Presents: Monsters of the Multiverse"
+    },
+    "motm-hobgoblin": {
+        "link": "",
+        "name": "Hobgoblin",
+        "book": "Mordenkainen Presents: Monsters of the Multiverse"
+    },
+    "motm-kenku": {
+        "link": "",
+        "name": "Kenku",
+        "book": "Mordenkainen Presents: Monsters of the Multiverse"
+    },
+    "motm-kobold": {
+        "link": "",
+        "name": "Kobold",
+        "book": "Mordenkainen Presents: Monsters of the Multiverse"
+    },
+    "motm-lizardfolk": {
+        "link": "",
+        "name": "Lizardfolk",
+        "book": "Mordenkainen Presents: Monsters of the Multiverse"
+    },
+    "motm-minotaur": {
+        "link": "",
+        "name": "Minotaur",
+        "book": "Mordenkainen Presents: Monsters of the Multiverse"
+    },
+    "motm-orc": {
+        "link": "",
+        "name": "Orc",
+        "book": "Mordenkainen Presents: Monsters of the Multiverse"
+    },
+    "motm-satyr": {
+        "link": "",
+        "name": "Satyr",
+        "book": "Mordenkainen Presents: Monsters of the Multiverse"
+    },
+    "motm-sea_elf": {
+        "link": "",
+        "name": "Sea Elf",
+        "book": "Mordenkainen Presents: Monsters of the Multiverse"
+    },
+    "motm-shadar_kai": {
+        "link": "",
+        "name": "Shadar-kai",
+        "book": "Mordenkainen Presents: Monsters of the Multiverse"
+    },
+    "motm-shifter": {
+        "link": "",
+        "name": "Shifter",
+        "book": "Mordenkainen Presents: Monsters of the Multiverse"
+    },
+    "motm-tabaxi": {
+        "link": "",
+        "name": "Tabaxi",
+        "book": "Mordenkainen Presents: Monsters of the Multiverse"
+    },
+    "motm-tortle": {
+        "link": "",
+        "name": "Tortle",
+        "book": "Mordenkainen Presents: Monsters of the Multiverse"
+    },
+    "motm-triton": {
+        "link": "",
+        "name": "Triton",
+        "book": "Mordenkainen Presents: Monsters of the Multiverse"
+    },
+    "motm-water_genasi": {
+        "link": "",
+        "name": "Water Genasi",
+        "book": "Mordenkainen Presents: Monsters of the Multiverse"
+    },
+    "motm-yuan_ti": {
+        "link": "",
+        "name": "Yuan-ti",
+        "book": "Mordenkainen Presents: Monsters of the Multiverse"
+    },
+    "vgtm-aasimar": {
+        "link": "",
+        "name": "Aasimar",
+        "book": "Volo's Guide to Monsters"
+    },
+    "vgtm-bugbear": {
+        "link": "",
+        "name": "Bugbear",
+        "book": "Volo's Guide to Monsters"
+    },
+    "vgtm-firbolg": {
+        "link": "",
+        "name": "Firbolg",
+        "book": "Volo's Guide to Monsters"
+    },
+    "vgtm-goblin": {
+        "link": "",
+        "name": "Goblin",
+        "book": "Volo's Guide to Monsters"
+    },
+    "vgtm-hobgoblin": {
+        "link": "",
+        "name": "Hobgoblin",
+        "book": "Volo's Guide to Monsters"
+    },
+    "vgtm-kenku": {
+        "link": "",
+        "name": "Kenku",
+        "book": "Volo's Guide to Monsters"
+    },
+    "vgtm-kobold": {
+        "link": "",
+        "name": "Kobold",
+        "book": "Volo's Guide to Monsters"
+    },
+    "vgtm-lizardfolk": {
+        "link": "",
+        "name": "Lizardfolk",
+        "book": "Volo's Guide to Monsters"
+    },
+    "vgtm-orc": {
+        "link": "",
+        "name": "Orc",
+        "book": "Volo's Guide to Monsters"
+    },
+    "vgtm-tabaxi": {
+        "link": "",
+        "name": "Tabaxi",
+        "book": "Volo's Guide to Monsters"
+    },
+    "vgtm-triton": {
+        "link": "",
+        "name": "Triton",
+        "book": "Volo's Guide to Monsters"
+    },
+    "vgtm-yuan_ti_pureblood": {
+        "link": "",
+        "name": "Yuan-ti Pureblood",
+        "book": "Volo's Guide to Monsters"
+    },
+    "vrgtr-lineages": {
+        "link": "",
+        "name": "Lineages",
+        "book": "Van Richten's Guide to Ravenloft"
+    },
+    "scag-feral_tiefling": {
+        "link": "",
+        "name": "Feral Tiefling",
+        "book": "Sword Coast Adventurer's Guide"
+    },
+    "ttp-tortle": {
+        "link": "",
+        "name": "Tortle",
+        "book": "The Tortle Package"
+    },
+    "erftlw-changeling": {
+        "link": "",
+        "name": "Changeling",
+        "book": "Eberron- Rising from the Last War"
+    },
+    "erftlw-kalashtar": {
+        "link": "",
+        "name": "Kalashtar",
+        "book": "Eberron- Rising from the Last War"
+    },
+    "erftlw-shifter": {
+        "link": "",
+        "name": "Shifter",
+        "book": "Eberron- Rising from the Last War"
+    },
+    "erftlw-warforged": {
+        "link": "",
+        "name": "Warforged",
+        "book": "Eberron- Rising from the Last War"
+    },
+    "sais-astral_elf": {
+        "link": "",
+        "name": "Astral Elf",
+        "book": "Spelljammer- Adventures in Space"
+    },
+    "sais-autognome": {
+        "link": "",
+        "name": "Autognome",
+        "book": "Spelljammer- Adventures in Space"
+    },
+    "sais-giff": {
+        "link": "",
+        "name": "Giff",
+        "book": "Spelljammer- Adventures in Space"
+    },
+    "sais-hadozee": {
+        "link": "",
+        "name": "Hadozee",
+        "book": "Spelljammer- Adventures in Space"
+    },
+    "sais-plasmoid": {
+        "link": "",
+        "name": "Plasmoid",
+        "book": "Spelljammer- Adventures in Space"
+    },
+    "sais-thri_kreen": {
+        "link": "",
+        "name": "Thri-kreen",
+        "book": "Spelljammer- Adventures in Space"
+    },
+    "mtof-gith": {
+        "link": "",
+        "name": "Gith",
+        "book": "Mordenkainen's Tome of Foes"
+    },
+    "ggtr-centaur": {
+        "link": "",
+        "name": "Centaur",
+        "book": "Guildmasters' Guide to Ravinca"
+    },
+    "ggtr-loxodon": {
+        "link": "",
+        "name": "Loxodon",
+        "book": "Guildmasters' Guide to Ravinca"
+    },
+    "ggtr-minotaur": {
+        "link": "",
+        "name": "Minotaur",
+        "book": "Guildmasters' Guide to Ravinca"
+    },
+    "ggtr-simic_hybrid": {
+        "link": "",
+        "name": "Simic Hybrid",
+        "book": "Guildmasters' Guide to Ravinca"
+    },
+    "ggtr-vedalken": {
+        "link": "",
+        "name": "Vedalken",
+        "book": "Guildmasters' Guide to Ravinca"
+    },
+    "ai-verdan": {
+        "link": "",
+        "name": "Verdan",
+        "book": "Acquisitions Incorporated"
+    },
+    "lr-locathah": {
+        "link": "",
+        "name": "Locathah",
+        "book": "Locathah Rising"
+    },
+    "sotdq-kender": {
+        "link": "",
+        "name": "Kender",
+        "book": "Dragonlance- Shadow of the Dragon Queen"
+    },
+    "oga-grung": {
+        "link": "",
+        "name": "Grung",
+        "book": "One Grung Above"
+    },
+    "eepc-aarakocra": {
+        "link": "",
+        "name": "Aarakocra",
+        "book": "Elemental Evil Player's Companion"
+    },
+    "eepc-genasi": {
+        "link": "",
+        "name": "Genasi",
+        "book": "Elemental Evil Player's Companion"
+    },
+    "eepc-goliath": {
+        "link": "",
+        "name": "Goliath",
+        "book": "Elemental Evil Player's Companion"
     }
-]
+}
