@@ -8,9 +8,27 @@ class Character:
     health = 0
     initiative = 0
 
-    def getSpeed(self):
+    def getRaceData(self):
         raceFileName = "source/races/" + self.character["race"] + ".json"
-        raceFileData = Control.getData(raceFileName)
+        return Control.getData(raceFileName)
+    
+    def getRaceLink(self):
+        racesFileData = Control.getData("source/race.json")
+        raceName = racesFileData["link"]
+        return raceName
+        
+    def getRaceName(self):
+        racesFileData = Control.getData("source/race.json")
+        raceName = racesFileData["name"]
+        return raceName
+    
+    def getRaceBook(self):
+        racesFileData = Control.getData("source/race.json")
+        raceName = racesFileData["book"]
+        return raceName
+
+    def getSpeed(self):
+        raceFileData = self.getRaceData()
         return raceFileData["speed"]
     
     def getProficiencyBonus(self):

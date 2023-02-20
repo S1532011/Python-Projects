@@ -1,15 +1,11 @@
 import json
 from tkinter import *
 
-from Character import *
-from TurnOrder import *
+from Game import *
 
 class Main:
-    character1 = Character("ander_zytolga")
-    print("Speed:", character1.getSpeed())
-    print("Proficiency Bonus:", character1.getProficiencyBonus())
-    print("Dexterity Modifier:", character1.getStatModifier("dexterity"))
-    print("Stealth:", character1.getSkillModifier("stealth"))
+    game = Game("chrono_trigger")
+    print(game.characters[0].character["equipment"][0]["item_name"])
     # window = Tk()
     # turnOrder = TurnOrder("game", "battle")
 
