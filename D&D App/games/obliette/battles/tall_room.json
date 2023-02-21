@@ -1,0 +1,12 @@
+{
+    "monsters": [
+        {
+            "monster": "wight",
+            "count": 2
+        },
+        {
+            "monster": "gelatinous_cube",
+            "count": 1
+        }
+    ]
+}

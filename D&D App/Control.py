@@ -20,3 +20,9 @@ class Control:
         fileData = json.loads(file.read())
         file.close()
         return fileData
+    
+    def setData(fileName, fileData):
+        file = open(fileName, "w")
+        file.write(json.dumps(fileData))
+        file.close()
+        

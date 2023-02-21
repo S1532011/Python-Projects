@@ -1,23 +1,8 @@
 {
-    "party": "obliette",
     "monsters": [
         {
-            "type": "skeleton",
-            "count": 6,
-            "modifiers": [
-            ]
+            "monster": "skeleton",
+            "count": 6
         }
-    ],
-    "cora_dudley": {
-
-    },
-    "katyer_marikoth": {
-
-    },
-    "reese": {
-
-    },
-    "wizard": {
-
-    },
+    ]
 }

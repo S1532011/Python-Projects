@@ -4,9 +4,28 @@ from Control import *
 
 class Character:
     character = {}
-    maxHealth = 0
-    health = 0
-    initiative = 0
+    characterFileName = ""
+
+    def getHitPoints(self, battleFilePath):
+        battleFileData = Control.getData(battleFilePath)
+        return battleFileData["characterFileName"]["hit_points"]
+    
+    def setHitPoints(self, battleFilePath, hitPoints):
+        battleFileData = Control.getData(battleFilePath)
+        battleFileData["hit_points"] = hitPoints
+        Control.setData(battleFilePath, battleFileData)
+    
+    def getInitiative(self, battleFilePath):
+        battleFileData = Control.getData(battleFilePath)
+        return battleFileData["characterFileName"]["initiative"]
+    
+    def setInitiative(self, battleFilePath, initiative):
+        battleFileData = Control.getData(battleFilePath)
+        battleFileData["initiative"] = initiative
+        Control.setData(battleFilePath, battleFileData)
+    
+    def rollInitiative(self):
+        return Control.roll("1d20+" + str(self.getStatModifier("dexterity")))
 
     def getRaceData(self):
         raceFileName = "source/races/" + self.character["race"] + ".json"
@@ -58,3 +77,4 @@ class Character:
     
     def __init__(self, characterName):
         self.character = self.getData(characterName)
+        self.characterFileName = characterName
