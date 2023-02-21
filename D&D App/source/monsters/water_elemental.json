@@ -15,7 +15,7 @@
     },
     "vulnerabilities": [
     ],
-    "damage_resistance": [
+    "damage_resistances": [
         "acid",
         "bludgeoning",
         "piercing",

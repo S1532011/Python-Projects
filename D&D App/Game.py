@@ -19,7 +19,7 @@ class Game:
             battleSaveData = {}
             for character in self.characters:
                 hitPoints = character.character["hit_point_maximum"]
-                battleSaveData[character.characterFileName] = {"hit_point_maximum": hitPoints, "hit_points": hitPoints, "initiative": character.rollInitiative()}
+                battleSaveData[character.characterFileName] = {"hit_points": hitPoints, "initiative": character.rollInitiative()}
             for monster in self.monsters:
                 hitPoints = monster["data"].rollHitPoints()
                 battleSaveData[monster["id"]] = {"hit_point_maximum": hitPoints, "hit_points": hitPoints, "initiative": monster["data"].rollInitiative()}

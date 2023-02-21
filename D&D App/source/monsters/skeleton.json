@@ -15,7 +15,7 @@
     "vulnerabilities": [
         "bludgeoning"
     ],
-    "damage_resistance": [
+    "damage_resistances": [
     ],
     "damage_immunities": [
         "poison"

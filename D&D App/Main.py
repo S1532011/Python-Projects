@@ -1,4 +1,4 @@
-import json
+import sys
 from tkinter import *
 
 from Game import *
@@ -15,6 +15,7 @@ class Main:
         for stat in character.character["stats"]:
             print(stat, character.getStatModifier(stat), end=", ")
         print("\n")
+
     # window = Tk()
 
     # def __init__(self):
