@@ -10,6 +10,11 @@ class Control:
             rollResult += random.randint(0, diceValue)
 
         return rollResult
+    
+    def getInfo(fileName, data):
+        fileData = Control.getData("source/" + str(fileName) + ".json")
+        return fileData[data]
+
     def getStatFromSkill(skillName):
         skillsFileData = Control.getData("source/skills.json")
         statName = skillsFileData[skillName]

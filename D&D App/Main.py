@@ -9,7 +9,12 @@ class Main:
         print(monster["id"], end=", ")
         print(monster["data"].rollHitPoints(), end="")
         print()
-    print(game.getBattleSave())
+    print()
+    for character in game.characters:
+        print(character.character["character_name"] + ":")
+        for stat in character.character["stats"]:
+            print(stat, character.getStatModifier(stat), end=", ")
+        print("\n")
     # window = Tk()
 
     # def __init__(self):
