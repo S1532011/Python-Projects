@@ -1,10 +1,42 @@
 import math
+from tkinter import *
 
 from Control import *
+from Window import *
 
 class Character:
     character = {}
     characterFileName = ""
+
+    def getItemText(self, key, characterNode):
+        print("<!----- Key:", key, "----->")
+        
+        if(key.find("stat_modifier") != -1):
+            return self.getStatModifier(key[key.rfind(".") + 1:])
+        if(key.find("skill_modifier") != -1):
+            return self.getSkillModifier(key[key.rfind(".") + 1:])
+
+        if(key.find(".") != -1):
+            return self.getItemText(key[key.find(".") + 1:], characterNode[key[:key.find(".")]])
+        else:
+            return characterNode[key]
+
+    def showInfo(self):
+        imageSource = PhotoImage(file="source/img/character_sheet.png")
+        image = Label(Window.window, image=imageSource)
+        image.place(x=200, y=0)
+
+        characterSheet = Control.getData("source/sheets/character_sheet.json")
+
+        for item in characterSheet:
+            itemText = ""
+            for key in item["keys"]:
+                itemText += str(self.getItemText(key, self.character)) + " "
+
+            sheetItem = Label(Window.window, text=itemText, anchor="w", bg="#ab23ff")
+            sheetItem.place(x=item["x"], y=item["y"])
+
+        Window.window.mainloop()
 
     def getHitPoints(self, battleFilePath):
         battleFileData = Control.getData(battleFilePath)
@@ -51,9 +83,9 @@ class Character:
         return raceFileData["speed"]
     
     def getProficiencyBonus(self):
-        proficiencyBonusFileName = "source/proficiencyBonus.json"
+        proficiencyBonusFileName = "source/proficiency_bonus.json"
         proficiencyBonusFileData = Control.getData(proficiencyBonusFileName)
-        return proficiencyBonusFileData[self.character["level"]]
+        return proficiencyBonusFileData["proficiency_bonus"][self.character["level"]]
     
     def getStatModifier(self, statModifierName):
         statModifier = math.floor((self.character["stats"][statModifierName] - 10) / 2)

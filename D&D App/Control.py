@@ -7,7 +7,7 @@ class Control:
         diceValue = int(rollValue[rollValue.find("d") + 1:rollValue.find("+")])
         rollResult = int(rollValue[rollValue.find("+") + 1:])
         for i in range(numDice):
-            rollResult += random.randint(0, diceValue)
+            rollResult += random.randint(1, diceValue)
 
         return rollResult
     

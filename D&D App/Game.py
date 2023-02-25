@@ -1,10 +1,9 @@
 from Character import *
 from Monster import *
 
-
 class Game:
-    characters = []
-    monsters = []
+    characters = {}
+    monsters = {}
     turnOrder = []
     gameName = ""
     gameFolder = ""
@@ -25,19 +24,40 @@ class Game:
                 battleSaveData[monster["id"]] = {"hit_point_maximum": hitPoints, "hit_points": hitPoints, "initiative": monster["data"].rollInitiative()}
 
             Control.setData(self.battleSaveFilePath, battleSaveData)
+            return battleSaveData
+    
+    def setTurnOrder(self):
+        battleSave = self.getBattleSave()
+
+        for creature in battleSave.keys():
+                self.turnOrder.append(creature)
+        
+        for i in range(0, len(self.turnOrder)):
+            for j in range(i + 1, len(self.turnOrder)):
+                if(battleSave[self.turnOrder[i]]["initiative"] < battleSave[self.turnOrder[j]]["initiative"]):
+                    temp = self.turnOrder[i]
+                    self.turnOrder[i] = self.turnOrder[j]
+                    self.turnOrder[j] = temp
+                
+    def showInfo(self, creatureID):
+        if creatureID in self.characters.keys():
+            self.characters[creatureID].showInfo()
+        else:
+            self.monsters[creatureID].showInfo()
 
     def getCharacters(self):
         partyFileData = Control.getData(self.gameFolder + "party.json")
         party = partyFileData["party"]
         for character in party:
             tempCharacter = Character(str(character))
-            self.characters.append(tempCharacter)
+            self.characters[character] = (tempCharacter)
+
     
     def getMonsters(self):
         battleFileData = Control.getData(self.battleFilePath)
         for monster in battleFileData["monsters"]:
             for monsterNum in range(monster["count"]):
-                self.monsters.append({"id": monster["monster"] + str(monsterNum), "data": Monster(monster["monster"])})
+                self.monsters[monster["monster"] + str(monsterNum)] = Monster(monster["monster"])
 
     def __init__(self, gameName, battleName):
         self.gameName = str(gameName)

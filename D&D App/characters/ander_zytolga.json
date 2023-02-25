@@ -9,7 +9,7 @@
     "sub_race": "phb-lightfoot_halfling",
     "alignment": {
         "morals": "neutral",
-        "ethics": "good"
+        "ethics": "good" 
     },
     "experience_points": 0,
     "inspiration": false,
@@ -73,7 +73,7 @@
         "copper": 0,
         "silver": 0,
         "electrum": 0,
-        "gold": 435,
+        "gold": 425,
         "platinum": 0
     },
     "equipment": [
@@ -104,11 +104,15 @@
         {
             "item_name": "stick",
             "count": 1
+        },
+        {
+            "item_name": "exotic_flower",
+            "count": 2
         }
     ],
     "features_and_traits": [
         "thieves_cant",
-        "sneak_atttack",
+        "sneak_attack",
         "halfling_luck",
         "brave",
         "halfling_nimbleness",

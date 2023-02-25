@@ -1,26 +1,32 @@
-import sys
 from tkinter import *
 
 from Game import *
+from Window import *
 
 class Main:
-    game = Game("obliette", "tall_room")
-    for monster in game.monsters:
-        print(monster["id"], end=", ")
-        print(monster["data"].rollHitPoints(), end="")
-        print()
-    print()
-    for character in game.characters:
-        print(character.character["character_name"] + ":")
-        for stat in character.character["stats"]:
-            print(stat, character.getStatModifier(stat), end=", ")
-        print("\n")
 
-    # window = Tk()
+    def __init__(self, gameName, battleName):   
+        Window.window.geometry("960x600")
+        Window.window.wm_attributes("-transparentcolor", "#ab23ff")
 
-    # def __init__(self):
-    #     self.window.geometry("960x600")
-    #     self.window.mainloop()
+        game = Game(gameName, battleName)
+        battleSave = game.getBattleSave()
+        game.setTurnOrder()
+
+        print(game.turnOrder)
+        str = StringVar()
+        def showInfo(creature):
+                game.showInfo(creature)
+
+        for i in range(0, len(game.turnOrder)):
+            # button = Button(self.window, text=Game.getCreatureName(game.turnOrder[i]))
+            button = Button(Window.window, text=game.turnOrder[i], width=25, anchor="w", command=lambda creature=game.turnOrder[i]:showInfo(creature))
+            button.grid(column=0, row=i, padx=2, pady=2)
+
+        Window.window.mainloop()
 
 if(__name__ == "__main__"):
-    main = Main()
+    # gameName = input("Enter game name: ")
+    # battleName = input("Enter battle name: ")
+    # main = Main(gameName, battleName)
+    main = Main("obliette", "tall_room")

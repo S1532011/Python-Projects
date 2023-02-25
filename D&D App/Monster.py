@@ -1,12 +1,14 @@
 import math
 
 from Control import *
+from Window import *
 
 class Monster:
     monster = {}
-    maxHealth = 0
-    monsterName = ""
     monsterFileName = ""
+
+    def showInfo(self):
+        print(self.monsterFileName)
 
     def getHitPoints(self, battleFilePath):
         battleFileData = Control.getData(battleFilePath)
@@ -31,6 +33,10 @@ class Monster:
 
     def getSpeed(self):
         return self.monster["speed"]
+    
+    def getHitPoints(self, battleFilePath, id):
+        battleFileData = Control.getData(battleFilePath)
+        return battleFileData[id]["hit_points"]
     
     def rollHitPoints(self):
         hitPoints = Control.roll(self.monster["hit_points"])
