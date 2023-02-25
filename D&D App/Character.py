@@ -1,4 +1,5 @@
 import math
+import webbrowser
 from tkinter import *
 
 from Control import *
@@ -13,8 +14,12 @@ class Character:
         
         if(key.find("stat_modifier") != -1):
             return self.getStatModifier(key[key.rfind(".") + 1:])
+        if(key.find("stat_saving_throw") != -1):
+            return self.getSkillModifier(key[key.rfind(".") + 1:])
         if(key.find("skill_modifier") != -1):
             return self.getSkillModifier(key[key.rfind(".") + 1:])
+        if(key.find("proficiency_bonus") != -1):
+            return self.getProficiencyBonus()
 
         if(key.find(".") != -1):
             return self.getItemText(key[key.find(".") + 1:], characterNode[key[:key.find(".")]])
@@ -30,10 +35,14 @@ class Character:
 
         for item in characterSheet:
             itemText = ""
+            itemLinkID = ""
             for key in item["keys"]:
                 itemText += str(self.getItemText(key, self.character)) + " "
+            if(item["linkID"] != ""):
+                itemLinkID = item["linkID"]
 
-            sheetItem = Label(Window.window, text=itemText, anchor="w", bg="#ab23ff")
+            sheetItem = Label(Window.window, text=itemText, anchor="w", font=('Times', item["font_size"]))
+            sheetItem.bind("<Button-1>", lambda e:webbrowser.open_new_tab(self.openLink(itemLinkID)))
             sheetItem.place(x=item["x"], y=item["y"])
 
         Window.window.mainloop()
@@ -63,6 +72,9 @@ class Character:
         raceFileName = "source/races/" + self.character["race"] + ".json"
         return Control.getData(raceFileName)
     
+    def openLink(self, itemLink):
+        return "https://youtube.com"
+
     def getRaceLink(self):
         racesFileData = Control.getData("source/race.json")
         raceName = racesFileData["link"]

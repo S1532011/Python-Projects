@@ -16,12 +16,14 @@ class Game:
             return Control.getData(self.battleSaveFilePath)
         except FileNotFoundError:
             battleSaveData = {}
-            for character in self.characters:
+            for characterName in self.characters:
+                character = self.characters[characterName]
                 hitPoints = character.character["hit_point_maximum"]
                 battleSaveData[character.characterFileName] = {"hit_points": hitPoints, "initiative": character.rollInitiative()}
-            for monster in self.monsters:
-                hitPoints = monster["data"].rollHitPoints()
-                battleSaveData[monster["id"]] = {"hit_point_maximum": hitPoints, "hit_points": hitPoints, "initiative": monster["data"].rollInitiative()}
+            for monsterName in self.monsters:
+                monster = self.monsters[monsterName]
+                hitPoints = monster.rollHitPoints()
+                battleSaveData[monsterName] = {"hit_point_maximum": hitPoints, "hit_points": hitPoints, "initiative": monster.rollInitiative()}
 
             Control.setData(self.battleSaveFilePath, battleSaveData)
             return battleSaveData
@@ -51,6 +53,8 @@ class Game:
         for character in party:
             tempCharacter = Character(str(character))
             self.characters[character] = (tempCharacter)
+            
+        print(self.characters)
 
     
     def getMonsters(self):

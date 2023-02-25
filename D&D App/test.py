@@ -1,16 +1,11 @@
-#Import the required libraries
-from tkinter import *
+# extract_doc_info.py
 
-#Create an instance of Tkinter Frame
-win = Tk()
+from PyPDF2 import *
 
-#Set the geometry
-win.geometry("700x250")
+filePath = "source/sheets/character_sheet.pdf"
 
-#Adding transparent background property
-win.wm_attributes('-transparentcolor', '#ab23ff')
+file = open(filePath, "rb")
+pdfReader = PdfReader(file)
 
-#Create a Label
-Label(win, text= "This is a New line Text", font= ('Helvetica 18'), bg= '#ab23ff').pack(ipadx= 50, ipady=50, padx= 20)
-
-win.mainloop()
+for object in pdfReader.get_object():
+    print(object)

@@ -7,7 +7,6 @@ class Main:
 
     def __init__(self, gameName, battleName):   
         Window.window.geometry("960x600")
-        Window.window.wm_attributes("-transparentcolor", "#ab23ff")
 
         game = Game(gameName, battleName)
         battleSave = game.getBattleSave()

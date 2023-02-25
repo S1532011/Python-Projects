@@ -3,6 +3,8 @@
         "keys": [
             "character_name"
         ],
+        "linkID": "",
+        "font_size": 13,
         "x": 260,
         "y": 80
     },
@@ -11,6 +13,8 @@
             "class",
             "level"
         ],
+        "linkID": "class",
+        "font_size": 10,
         "x": 540,
         "y": 60
     },
@@ -18,13 +22,17 @@
         "keys": [
             "background"
         ],
-        "x": 670,
+        "linkID": "background",
+        "font_size": 10,
+        "x": 680,
         "y": 60
     },
     {
         "keys": [
             "player_name"
         ],
+        "linkID": "",
+        "font_size": 10,
         "x": 800,
         "y": 60
     },
@@ -32,6 +40,8 @@
         "keys": [
             "race"
         ],
+        "linkID": "race",
+        "font_size": 10,
         "x": 540,
         "y": 93
     },
@@ -40,13 +50,17 @@
             "alignment.morals",
             "alignment.ethics"
         ],
-        "x": 670,
+        "linkID": "alignment",
+        "font_size": 10,
+        "x": 680,
         "y": 93
     },
     {
         "keys": [
             "experience_points"
         ],
+        "linkID": "experience",
+        "font_size": 10,
         "x": 800,
         "y": 93
     },
@@ -54,84 +68,279 @@
         "keys": [
             "stats.strength"
         ],
-        "x": 265,
+        "linkID": "",
+        "font_size": 15,
+        "x": 256,
         "y": 200
     },
     {
         "keys": [
             "stat_modifier.strength"
         ],
-        "x": 263,
+        "linkID": "",
+        "font_size": 8,
+        "x": 264,
         "y": 233
     },
     {
         "keys": [
             "stats.dexterity"
         ],
-        "x": 265,
-        "y": 290
+        "linkID": "",
+        "font_size": 15,
+        "x": 256,
+        "y": 289
     },
     {
         "keys": [
             "stat_modifier.dexterity"
         ],
-        "x": 263,
+        "linkID": "",
+        "font_size": 8,
+        "x": 264,
         "y": 323
     },
     {
         "keys": [
             "stats.constitution"
         ],
-        "x": 265,
-        "y": 380
+        "linkID": "",
+        "font_size": 15,
+        "x": 256,
+        "y": 378
     },
     {
         "keys": [
             "stat_modifier.constitution"
         ],
-        "x": 263,
+        "linkID": "",
+        "font_size": 8,
+        "x": 264,
         "y": 411
     },
     {
         "keys": [
             "stats.intelligence"
         ],
-        "x": 265,
-        "y": 470
+        "linkID": "",
+        "font_size": 15,
+        "x": 256,
+        "y": 467
     },
     {
         "keys": [
             "stat_modifier.intelligence"
         ],
-        "x": 263,
+        "linkID": "",
+        "font_size": 8,
+        "x": 264,
         "y": 501
     },
     {
         "keys": [
             "stats.wisdom"
         ],
-        "x": 265,
-        "y": 560
+        "linkID": "",
+        "font_size": 15,
+        "x": 256,
+        "y": 556
     },
     {
         "keys": [
             "stat_modifier.wisdom"
         ],
-        "x": 263,
+        "linkID": "",
+        "font_size": 8,
+        "x": 264,
         "y": 590
     },
     {
         "keys": [
             "stats.charisma"
         ],
-        "x": 265,
-        "y": 650
+        "linkID": "",
+        "font_size": 15,
+        "x": 256,
+        "y": 645
     },
     {
         "keys": [
             "stat_modifier.charisma"
         ],
-        "x": 263,
+        "linkID": "",
+        "font_size": 8,
+        "x": 264,
         "y": 680
+    },
+    {
+        "keys": [
+            "proficiency_bonus"
+        ],
+        "linkID": "proficiency_bonus",
+        "font_size": 10,
+        "x": 330,
+        "y": 214
+    },
+    {
+        "keys": [
+            "skill_modifier.acrobatics"
+        ],
+        "linkID": "",
+        "font_size": 7,
+        "x": 344,
+        "y": 396
+    },
+    {
+        "keys": [
+            "skill_modifier.animal_handling"
+        ],
+        "linkID": "",
+        "font_size": 7,
+        "x": 344,
+        "y": 413
+    },
+    {
+        "keys": [
+            "skill_modifier.arcana"
+        ],
+        "linkID": "",
+        "font_size": 7,
+        "x": 344,
+        "y": 430
+    },
+    {
+        "keys": [
+            "skill_modifier.athletics"
+        ],
+        "linkID": "",
+        "font_size": 7,
+        "x": 344,
+        "y": 447
+    },
+    {
+        "keys": [
+            "skill_modifier.deception"
+        ],
+        "linkID": "",
+        "font_size": 7,
+        "x": 344,
+        "y": 464
+    },
+    {
+        "keys": [
+            "skill_modifier.history"
+        ],
+        "linkID": "",
+        "font_size": 7,
+        "x": 344,
+        "y": 481
+    },
+    {
+        "keys": [
+            "skill_modifier.insight"
+        ],
+        "linkID": "",
+        "font_size": 7,
+        "x": 344,
+        "y": 498
+    },
+    {
+        "keys": [
+            "skill_modifier.intimidation"
+        ],
+        "linkID": "",
+        "font_size": 7,
+        "x": 344,
+        "y": 515
+    },
+    {
+        "keys": [
+            "skill_modifier.investigation"
+        ],
+        "linkID": "",
+        "font_size": 7,
+        "x": 344,
+        "y": 532
+    },
+    {
+        "keys": [
+            "skill_modifier.medicine"
+        ],
+        "linkID": "",
+        "font_size": 7,
+        "x": 344,
+        "y": 549
+    },
+    {
+        "keys": [
+            "skill_modifier.nature"
+        ],
+        "linkID": "",
+        "font_size": 7,
+        "x": 344,
+        "y": 566
+    },
+    {
+        "keys": [
+            "skill_modifier.perception"
+        ],
+        "linkID": "",
+        "font_size": 7,
+        "x": 344,
+        "y": 583
+    },
+    {
+        "keys": [
+            "skill_modifier.performance"
+        ],
+        "linkID": "",
+        "font_size": 7,
+        "x": 344,
+        "y": 600
+    },
+    {
+        "keys": [
+            "skill_modifier.persuasion"
+        ],
+        "linkID": "",
+        "font_size": 7,
+        "x": 344,
+        "y": 617
+    },
+    {
+        "keys": [
+            "skill_modifier.religion"
+        ],
+        "linkID": "",
+        "font_size": 7,
+        "x": 344,
+        "y": 634
+    },
+    {
+        "keys": [
+            "skill_modifier.sleight_of_hand"
+        ],
+        "linkID": "",
+        "font_size": 7,
+        "x": 344,
+        "y": 651
+    },
+    {
+        "keys": [
+            "skill_modifier.stealth"
+        ],
+        "linkID": "",
+        "font_size": 7,
+        "x": 344,
+        "y": 668
+    },
+    {
+        "keys": [
+            "skill_modifier.survival"
+        ],
+        "linkID": "",
+        "font_size": 7,
+        "x": 344,
+        "y": 685
     }
 ]
