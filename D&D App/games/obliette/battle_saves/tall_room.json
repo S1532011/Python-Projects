@@ -1,1 +1,37 @@
-{"cora_dudley": {"hit_points": 0, "initiative": 14}, "katyer_marikoth": {"hit_points": 0, "initiative": 13}, "wizard": {"hit_points": 0, "initiative": -4}, "reese": {"hit_points": 0, "initiative": 0}, "ander_zytolga": {"hit_points": 10, "initiative": 16}, "wight0": {"hit_point_maximum": 50, "hit_points": 50, "initiative": 22}, "wight1": {"hit_point_maximum": 49, "hit_points": 49, "initiative": 3}, "gelatinous_cube0": {"hit_point_maximum": 83, "hit_points": 83, "initiative": -2}}
+{
+    "cora_dudley": {
+        "hit_points": 0,
+        "initiative": 14
+    },
+    "katyer_marikoth": {
+        "hit_points": 0,
+        "initiative": 13
+    },
+    "wizard": {
+        "hit_points": 0,
+        "initiative": -4
+    },
+    "reese": {
+        "hit_points": 0,
+        "initiative": 0
+    },
+    "ander_zytolga": {
+        "hit_points": 10,
+        "initiative": 16
+    },
+    "wight0": {
+        "hit_point_maximum": 50,
+        "hit_points": 50,
+        "initiative": 22
+    },
+    "wight1": {
+        "hit_point_maximum": 49,
+        "hit_points": 49,
+        "initiative": 3
+    },
+    "gelatinous_cube0": {
+        "hit_point_maximum": 83,
+        "hit_points": 83,
+        "initiative": -2
+    }
+}

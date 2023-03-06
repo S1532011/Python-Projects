@@ -108,6 +108,10 @@
         {
             "item_name": "exotic_flower",
             "count": 2
+        },
+        {
+            "item_name": "flask_of_mysterious_holy_liquid",
+            "count": 1
         }
     ],
     "features_and_traits": [
